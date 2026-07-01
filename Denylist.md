@@ -1,10 +1,6 @@
 # Denylist
 
-The following urls are in my NextDNS Denylist. Customize your Denylist to your preferences. 
-
-DNS completely blocks Denylist sites, so avoid including urls necessary for critical functionality, like icloud backup and software updates. 
-
-These sites have been blocked on all of my devices for several months with no issues.
+The following are blocked in my NextDNS settings. Customize your blocks to your preferences.  
 
 ### Include these to block Apple Private Relay
 
