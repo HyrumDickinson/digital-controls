@@ -1,13 +1,13 @@
-# What the digital controls do
+# What digital controls do
 
-Technology can be both beneficial and harmful. Self control fails to limit the harmful ([see why](Why-Use-Digital-Controls.md)). 
+*Technology can be both beneficial and harmful. Self control fails to limit the harmful ([see why](Why-Use-Digital-Controls.md)).*
 
 ### 4-layer protection
 
 1. Configuration profiles, which were originally designed for companies for controlling work-issued devices. 
 2. Screen time settings, which were originally designed for parents for controlling their children’s devices. 
 3. Standard/administrator account separation on Macs, which was originally designed for reducing cybersecurity risk. 
-4. Digital lockboxes, which let you put the passcodes to the other three layers in container that opens a time delay after you request access.
+4. Digital lockboxes, which let you put the passcodes to the other three layers in a secure container that opens a time delay after you request access.
 
 Omitting any layer of protection renders these digital controls ineffective by opening signficant loopholes that take mere seconds to exploit.
 
@@ -117,7 +117,7 @@ Use your burner email address and phone number to create a new Apple Account. Yo
 
 ### Log into Screen time with your new Apple Account
 
-On your Mac, iPhone, and iPad, go to **Settings > Screen Time > App & Website Activity > Turn on Apple & Website Activity**. Confirm that **Share Across Devices** is on. 
+On your iPhone, iPad, and Mac standard account, go to **Settings > Screen Time > App & Website Activity > Turn on Apple & Website Activity**. Confirm that **Share Across Devices** is on. 
 
 On your Mac, go to **Settings > Screen Time > Lock Screen Time Settings** and set a Screen Time Passcode. When prompted, sign in using your new Apple Account.
 
@@ -127,7 +127,7 @@ On your Mac, go to **Settings > Screen Time > Lock Screen Time Settings** and se
 
 *See a good explaination of the NextDNS settings [here](https://github.com/yokoffing/NextDNS-Config). My settings differ from theirs.*
 
-Sign up for a free account at [NextDNS](https://nextdns.io/).
+Sign up for a free account at [NextDNS](https://nextdns using your Screen Time Apple Account.
 
 ### Security
 - Enable **Threat Intelligence Feeds**
@@ -186,9 +186,172 @@ Sign up for a free account at [NextDNS](https://nextdns.io/).
 
 In the NextDNS dashboard, go to **Setup > Setup Guide > Configuration Profile**. Click on the line that says **Use our Apple Configuration Profile Generator available at apple.nextdns.io**.
 
-Select **More options**, scroll down, enable **Prohibit Disablement**, and disable **Sign Configuration Profile**. Then select **Download**. 
+Select **More options**, scroll down, enable **Prohibit Disablement**, and disable **Sign Configuration Profile**. Then select **Download**. Click **OK** on the popup that appears but do not install the profile.
 
-A popup will appear saying 
+Open **Apple Configurator**. At the top of the screen, select **File > Open > Downloads** and open the **.mobileconfig** file. 
+
+### Customize Configuration Profile
+
+In the **General** section,
+- Set **Security** to **Never**
+- Set **Automatically Remove Profile** to **Never**
+
+In the **Restrictions** section,
+- Disable **Allow Siri**
+- Disable **Allow Siri Suggestions**
+- Disable **Allow Erase All Content and Settings (supervised only)**
+- Disable **Allow installing configuration profiles (supervised only)**
+- Disable **Allow adding VPN configurations (supervised only)**
+- Enable **Force automatic date and time (supervised only)**
+- Disable **Allow pairing with non-Configurator hosts (supervised only)**
+- Disable **Allow putting into recovery mode from an unpaired device (supervised only)**
+- Disable **Allow Image Playground (supervised only)**
+
+Save your changes and move the file to your iCloud Documents folder.
+
+### Install Configuration Profile
+
+Connect your iPhone/iPad to your to your Mac using a USB cable. Right-click your iPhone/iPad in Apple Configurator. Select **Add > Profiles** and the **.mobileconfig** file. 
+
+On your Mac administrator account, go to **Settings > General > Device Management**, click the **+**, and select the **.mobileconfig** file. 
+
+Go to **Settings > General > VPN & Device Management** and confirm that you see the following settings.
+- **VPN** set to **Not Connected**
+- **Restrictions and Proxies** and **Configuration Profile** set to **NextDNS (and some code)**
+- Within **Configuration Profile** no option to remove the profile
+- **Configuration Profile > Restrictions** contains 
+    - Siri suggestions not allowed
+    - App ratings enforced
+    - Pairing with iTunes not allowed
+    - Image Playground not allowed
+    - Installing configuration profiles not allowed
+    - Siri while locked not allowed
+    - Automatic date & time enforced
+    - Siri uncurated content enfoced
+    - VPN creation not allowed
+    - Siri not allowed
+
+Confirm that in **Settings > General > Software Update** there is no option to install Beta Updates.
+
+Confirm that in **Settings > General > Transfer or Reset iPhone** the  **Erase All Content and Settings** option is faded out.
+
+## 7. Set Screen Time Settings
+
+*These settings allow some customizability not available in configuration profiles. The instructions are for Mac; whose Screen Time interface differs slightly from iPhone/iPad**
+
+Go to **Settings > Screen Time > App & Website Activity** and select **Turn on App & Website Activity**.
+
+### Downtime
+
+- Set **Scheduled** to **Every Day**
+- Set **From** to **10:00 PM**
+- Set **To** to **7:00**
+- Enable **Block at Downtime**
+
+### App Limits
+
+- Create a **1 minute** app limit for **Journal** and enable **Block at end of limit** is enabled
+- Create a **1 hour** app limit for **Music** and enable **Block at end of limit** is enabled
+
+### Always Allowed
+
+- Add [these](Allowed-Apps.md) apps.
+
+### Screen Distance
+
+- Enable **Screen Distance**
+
+### Content & Privacy Restrictions
+
+- Enable **Content & Privacy Restrictions**
+
+### App Store, Media, Web, & Games
+
+- Set **Access to Web Content** to **Limit Adult Websites** and select **Customize**
+- Add [these](Restricted-Web-Content.md) urls to the **Restricted** list and select **Done**.
+- Disable **Allow Music Profiles**
+- Disable **Allow Music & TV Shared Libraries**
+- Disable **Allow Adding Friends**
+- Disable **Allow Connect with Friends**
+- Disable **Allow Private Messaging**
+- Disable **Allow Avatar & Nickname Changes**
+- Disable **Allow Profile Privacy Changes**
+- Set **Allow Multiplayer Games With** to **No One**
+- Disable **Allow Nearby Multiplayer**
+
+### Intelligence & Siri
+
+- Disable **Image Creation**
+- Disable **Writing Tools**
+- Disable **Intelligence Extensions**
+- Disable **Allow Siri & Dictation**
+- Disable **Allow Explicit Language in Siri and Dictionary**
+- Disable **Allow Web Search Content in Siri**
+- Disable **Math Results**
+
+### Store Restrictions
+
+- Set **Movies** to **Don't Allow**
+- Set **TV Shows** to **Don't Allow**
+- Disable **Allow Music Videos**
+- Disable **Allow Installing Apps**
+- Disable **Allow Deleting Apps**
+- Disable **Allow In-app purchases**
+
+### App & Feature Restrictions
+
+- Disable **Allow Book Store**
+- Disable **Allow iTunes Store**
+- Disable **Allow Podcasts**
+- Disable **Allow News**
+
+## 8. Other settings
+
+*Make these and any other changes you need admin access for*
+
+- Pin your websites and clear your browser history.
+- Clear your Google data and turn off data collection
+- On your iPhone, iPad, and Mac, install **Ublock Origin Lite** and **Noir** from the App Store. Then go to **Settings > Apps > Safari > Extensions** and for each app, enable **Allow Extension** and **Allow in Private Browsing**, and set **All Websites** to **Allow**.
+
+## 9. Lockbox
+
+*Your Lockbox Passwords, which you will store there and nowhere else, are the passwords to your
+1. Screen Time Email account
+2. Screen Time Apple Account
+3. NextDNS account
+4. Mac administrator account*
+
+Set each of your Lockbox Passwords to consist of random letters, numbers, and symbols, and be at least 30 characters long. Copy the passwords to your Notes app.
+
+Create a Pluckeye account on their [website](https://lockbox.pluckeye.net/login).
+
+Select **new box**. Set **Unlock Delay** to 12 hours and **Relock Delay** to 4 hours. Set **Self-destruct date** to 2100-01-01.
+
+Copy the passwords from your Notes app to the **Information to store** section of your lockbox.
+
+Press **Create it!**.
+
+Close all apps in your Mac administrator account, reboot your Mac, and log into your Mac standard account only.
+
+Using your Mac, mash your keyboard with your eyes closed and arms crossed to change your four-digit screen time passcode to something random. Confirm that you are not able to remember your screen time passcode by attempting to change it again.
+
+When you are ready, delete the Lockbox Passwords from your Notes app and anywhere else you have stored them on your devices, including from applicable *Deleted* folders. 
+
+At this point, your digital controls are complete.
+
+## 10. Maintenance
+
+*You have full control over all settings, after the lockbox time delay.*
+
+To change Lockbox settings, open the lockbox.
+
+To change Screen Time settings, reset your Screen Time Passcode using your Screen Time Apple Account. 
+
+To change configuration profile settings, modify the **.mobileconfig** file in Apple Configurator using your Mac administrator account. Then use Apple Configurator to remove the old profile from your iPhone and iPad and install the new one. Switch profiles for your Mac using the Administrator account's Settings app.
+
+
+
+
 
 
 

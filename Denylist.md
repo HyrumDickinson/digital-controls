@@ -6,7 +6,7 @@ The following are blocked in my NextDNS settings. Customize your blocks to your 
 
 Apple Private Relay is a VPN. VPNs allow users to bypass digital controls by hiding information about internet use.
 
-```
+```txt
 mask.icloud.com
 apple-relay.cloudflare.com
 apple-relay.fastly-edge.com
@@ -20,7 +20,7 @@ mask.apple-dns.net
 
 ### The rest of my Denylist
 
-```
+```txt
 123rf.com
 12thblog.com
 19thnews.org

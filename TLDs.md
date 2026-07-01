@@ -1,8 +1,8 @@
 # Top-level Domains (TLDs)
 
-The following are blocked in my NextDNS settings. Customize your blocks to your preferences. 
+The following are blocked in my NextDNS settings. Customize your blocks to your preferences.
 
-```
+```txt
 .aaa
 .adult
 .ag
