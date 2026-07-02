@@ -53,11 +53,18 @@ As a reference, see my guidelines for restoring my apps and settings on Mac [her
 
 Then select **Settings > General > Transfer or Reset Mac > Erase All Content and Settings**.
 
-Set up your Mac as a new device. Do not restore from backup. When prompted to create an account, name it **Admin**. This will be your administrator account. Continue setting up your Mac until you reach the home screen. Download your apps and restore your settings.
+Set up your Mac as a new device. Do not restore from backup. When prompted to create an account, name it **Admin**, and disable **Allow computer account password to be reset with your Apple Account**. This will be your administrator account. 
+
+Continue setting up your Mac until you reach the home screen. Download your apps and restore your settings.
 
 ### Create a standard account
 
-Go to **Settings > Users & Groups > Add User**. Set **New User** to **Standard**. Set **Full Name** to your first name. Set a password. Click **Create User**. This will be your standard account for regular use.
+Go to **Settings > Users & Groups > Add User**: 
+- Set **New User** to **Standard**. 
+- Set **Full Name** to your first name. 
+- Set a password. 
+- Enable **Allow computer account password to be reset with your Apple Account**
+- Click **Create User**
 
 ### Restrict Apple Configurator to administrator account only
 
