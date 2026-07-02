@@ -202,6 +202,7 @@ chordsbase.com
 churchofjesuschrist.org
 churchofjesuschristtemples.org
 cincinnati.com
+cinebto.com
 cinemablend.com
 cinephilemagazine.com
 city-journal.org
@@ -290,6 +291,7 @@ disneyplus.com
 distractify.com
 dmoztools.net
 dogpile.com
+doomflix.to
 dramabox.app
 dreame.com
 dreamstime.com

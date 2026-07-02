@@ -35,11 +35,15 @@ All blocks and settings, including the lockbox wait time, are 100% customizable 
 
 # How to set up digital controls on Apple devices
 
-## 1. Update all devices to the latest operating system.
+## 1. Update and back up all devices.
 
 *Some features necessary for this guide do not exist in older software versions. Beta updates introduce unpredictable bugs.*
 
 On all of your devices, go to **Settings > General > Software Update** and install all available updates. 
+
+On all of your devices. screenshot your home screen, list of apps, and any other information you want to keep after factory reset.
+
+As a reference, see my guidelines for restoring my apps and settings on Mac [here] (Restore-Devices.md).
 
 ## 2. Separate administrator / standard accounts on Mac
 
@@ -47,7 +51,7 @@ On all of your devices, go to **Settings > General > Software Update** and insta
 
 ### Factory reset your Mac
 
-Back up your data. Screenshot your home screen, list of apps, and any other information you want to remember. Then select **Settings > General > Transfer or Reset Mac > Erase All Content and Settings**.
+Then select **Settings > General > Transfer or Reset Mac > Erase All Content and Settings**.
 
 Set up your Mac as a new device. Do not restore from backup. When prompted to create an account, name it **Admin**. This will be your administrator account. Continue setting up your Mac until you reach the home screen. Download your apps and restore your settings.
 
@@ -68,8 +72,6 @@ Select the lock icon again and close the app info screen.
 ## 3. Put iPhone and iPad in supervised mode
 
 *Supervised Mode allows you to install configuration profiles that can control settings and install DNS profiles.*
-
-Back up your iPhone and iPad. Screenshot your home screen, list of apps, and any other information you want to remember. 
 
 ### Connect iPhone/iPad to Apple Configurator
 
