@@ -4,16 +4,17 @@ The following are my guidelines for restoring device apps and settings after a r
 
 ### Universal Popups, Permissions, and Settings
 
-
 Log into all of your apps. If prompted, allow
 - Allow notifications sparingly
 - Allow critical notifications always
-- **"App" would like to use your current location** always
+- To **"App" Would Like to Send You Notifications** choose **Allow** sparingly
+- To **Allow "App" to use your location** choose **Allow While Using App** always
 - **Turn On Personalized Ads** always
 - **iCloud Syncing** always  w 
 - **Allow "App" to share that you have notifications silenced when using Focus** always
 - **"App" would like to access the Microphone** always
 - **"App" would like to use Bluetooth** always
+- **Allow "App" to access your visited places** always
 
 When prompted
 - With **Automatically Delete Verification Codes After Use** select **Delete After Use**
@@ -86,7 +87,29 @@ From the web, download:
 
 ### Settings
 
+In **Settings > Apps > Music** 
+- Enable **Audio Quality > Lossless Audio**
+- Set **Audio Quality > 5G & Wi-Fi Streaming** to Lossless
+- Set **Audio Quality > Downloads** to Lossless
+- Disable **Download over Cellular**
+- Enable **Download in Dolby Atmos**
+- Enable **Download Pins**
+- Enable **Automatic Downloads**
+- Sign in to Home Sharing
+
 ### Development
+
+In Visual Studio Code
+- Sign in using **Continue with GitHub**
+- Backup and Sync Settings using **Sign in with Github**
+  
+Follow the [instructions](https://brew.sh) to install Homebrew. 
+
+In Terminal
+```zsh
+git config --global user.name "your name"
+git config --global user.email "your email"
+```
 
 ## iPhone
 
@@ -148,5 +171,68 @@ From the web, download:
 - Select **Full Screen & Windowed Apps** for Multitasking & Windowing
 
 ### Apps
+
+Delete the following apps:
+- Calculator
+- Calendar
+- Clock
+- Contacts
+- FaceTime
+- Files
+- Games
+- Health
+- iTunes Store
+- Journal
+- Magnifier
+- Maps
+- Mail
+- Measure
+- Music
+- News
+- Photo Booth
+- Podcasts
+- Reminders
+- Shortcuts
+- Stocks
+- Tips
+- Translate
+- TV
+- Voice Memos
+- Weather
+
+Remove all widgets
+
+In **Settings > Home Screen & App Library**
+- Disable **Show App Library in Dock**
+- Disable **Show Suggested and Recent Apps in Dock**
+
+Download the following apps from the App Store:
+- Noir
+- uBlock Origin Lite
+
+Remove the following apps from Home Screen:
+- App Store
+- Books
+- Camera
+- Find My
+- Grammarly
+- Home
+- Messages
+- Noir
+- Passwords
+- Phone
+- Photos
+- Safari
+- Settings
+- uBlock Origin Lite
+
+Move the following apps to the Dock
+- Notes
+- Preview
+- Docs
+- Sheets
+- Slides
+- Miro
+- FreeForm
 
 ### Settings
