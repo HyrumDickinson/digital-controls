@@ -115,9 +115,70 @@ Remove these apps from the Home Screen:
 - App Store
 
 Download these apps:
-- Apple Store
+- Chase
+- OnePay
 - Beeper
+- Anki
+- ResidentPortal
+- Sports
+- Apple Store
 - Support
+- Numbers
+- Pages
+- Keynote
+- Miro
+- Sheets
+- Slides
+- Docs
+- Splitwise
+- Paprika 3
+- Noir
+- uBlock Origin Lite
+- Beli
+- Zipcar
+- OpenTable
+- AlaskaHawaiian
+- JetBlue
+- MyFitnessPal
+- Airbnb
+- Lyft
+- American
+- Target
+- Expedia
+- United
+- Walgreens
+- Walmart
+- State Farm
+- Amazon
+- MyChart
+- SpotHero
+- Zoom
+- Ventra
+- Venmo
+- Ticketmaster
+- PayPal
+- Duo Mobile
+- Amtrak
+- AMC Theatres
+- Illinois
+- FlixBus
+- AliExpress
+- ASICS
+- AutoZone
+- ChessClock
+- Illini
+- Flighty
+- Fly Delta
+- ICover: Live UIUC Bar Covers
+- MobileMeter
+- MyTSA
+- Nike
+- ParkChicago
+- Picsew
+- Southwest
+- Strong
+- TripIt
+- Wanderlog
 
 ### iPad
 Remove all widgets
