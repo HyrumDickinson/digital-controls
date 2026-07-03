@@ -26,7 +26,7 @@ The following are blocked from all of your devices:
 
 It is impossible to get around these blocks except through two methods
 1. Waiting 12 hours (recommended)
-2. Factory resetting your devices ([see more](Loophole.md))
+2. Factory resetting your devices ([see more](Failsafe.md))
 
 When you have gotten around these blocks, you have **full control**.
 
