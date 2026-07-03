@@ -126,10 +126,6 @@ Download these apps:
 - Numbers
 - Pages
 - Keynote
-- Miro
-- Sheets
-- Slides
-- Docs
 - Splitwise
 - Paprika 3
 - Noir
@@ -225,7 +221,6 @@ Remove these apps from the Home Screen:
 - Books
 - Camera
 - Find My
-- Grammarly
 - Messages
 - Noir
 - Passwords
@@ -238,11 +233,6 @@ Remove these apps from the Home Screen:
 Move the following apps to the Dock
 - Notes
 - Preview
-- Docs
-- Sheets
-- Slides
-- Miro
-- FreeForm
 
 
 ## Settings
@@ -258,8 +248,8 @@ Log into all of your apps. If prompted, allow
 - To **Allow "App" to track your activity across other companies' apps and websites** choose **Allow** always
 - To **Allow "App" to access your visited places** choose **Allow** always
 - To **Allow "App" to share that you have notifications silenced when using Focus** choose **Allow** always
+- To **Allow "App" to find Bluetooth devices** choose **Allow** always
 - To **"App" would like to access the Microphone** choose **Allow** always
-- To **"App" would like to access the Bluetooth** choose **Allow** always
 - To **"App" would like to access the Camera** choose **Allow** always
 - To **"App" would like to access your Motion & Fitness activity** choose **Allow** always
 - To **"App" would like full access to your Photo Library** choose **Limit Access** always
@@ -282,6 +272,7 @@ In Safari
 In Settings
 - In **Battery > Charging** set **Charghe Limit** to **80%**
 - In **Network > Firewall** enable **Firewall**
+- In **Displays > Night Shift >** enable **Scheduled**, set **From To** to **Sunset to Sunrise**, and scroll **Color Temperature** to the max **More Warm**
 
 In **Settings > Apps > Music** 
 - Enable **Audio Quality > Lossless Audio**
