@@ -269,7 +269,7 @@ Confirm that in **Settings > General > Software Update** there is no option to i
 - On your iPhone, iPad, and Mac, install **Ublock Origin Lite** and **Noir** from the App Store. Then go to **Settings > Apps > Safari > Extensions** and for each app, enable **Allow Extension** and **Allow in Private Browsing**, and set **All Websites** to **Allow**.
 
 ## 9. Lockbox
-*Your Lockbox Passwords, which you will store there and nowhere else, are the passwords to your*
+*Your Lockbox Passwords, which you will store there and nowhere else*
 1. *Screen Time Email account*
 2. *Screen Time Apple Account*
 3. *NextDNS account*
