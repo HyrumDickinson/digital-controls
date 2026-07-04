@@ -1,11 +1,3 @@
-# Denylist
-
-The following are blocked in my NextDNS settings. Customize your blocks to your preferences.  
-
-[This](https://help.nextdns.io/t/p8yg8my/tool-nextdns-blocklist-automator-sync-custom-raw-lists-easily-100-client-side-upgrade-your-blocklist) tool may help you add these urls to your Denylist more easily. To use the tool, use [this](Denylist-Raw.md) file
-
-### Social Media & Forums
-```txt
 4chan.org
 4channel.org
 8kun.top
@@ -205,10 +197,6 @@ yelp.com
 yikyak.com
 younow.com
 youtube.com
-```
-
-### Movies, TV & Podcasts
-```txt
 8tracks.com
 abc.com
 abc.net.au
@@ -475,10 +463,6 @@ youku.com
 youtube.com
 youtubekids.com
 zee5.com
-```
-
-### Games
-```txt
 1001games.com
 2k.com
 addictinggames.com
@@ -678,10 +662,6 @@ yieldguild.io
 zombs.io
 zumi.io
 zynga.com
-```
-
-### Artificial Intelligence
-```txt
 adept.ai
 ai.google
 ai21.com
@@ -824,10 +804,6 @@ x.ai
 yep.ai
 you.com
 zilliz.com
-```
-
-### News
-```txt
 12thblog.com
 19thnews.org
 247sports.com
@@ -1441,10 +1417,6 @@ yourtango.com
 zdnet.com
 zergnet.com
 zerohedge.com
-```
-
-### Religion
-```txt
 4mormon.org
 accesstoinsight.org
 addfaith.org
@@ -1583,10 +1555,6 @@ wheatandtares.org
 youversion.com
 zelophehadsdaughters.com
 zenoch.org
-```
-
-### Dating Apps
-```txt
 3fun.app
 adultfriendfinder.com
 ashleymadison.com
@@ -1655,10 +1623,6 @@ twoo.com
 wethunt.com
 yubo.live
 zoosk.com
-```
-
-### Food Delivery
-```txt
 albertsons.com
 amazon.com/fresh
 blueapron.com
@@ -1714,10 +1678,6 @@ weee.com
 wolt.com
 yummly.com
 zomato.com
-```
-
-### Loopholes like internet archives, torrents, and pirating
-```txt
 123rf.com
 1337x.to
 1fichier.com
@@ -1788,10 +1748,6 @@ yiff.party
 yts.mx
 z-lib.org
 zippyshare.com
-```
-
-### Other
-```txt
 alarms.org
 alarmy.com
 alcase.org
@@ -2044,4 +2000,3 @@ youbentmywookie.com
 youdao.com
 ziplocal.com
 zoominfo.com
-```

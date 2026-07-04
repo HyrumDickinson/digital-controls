@@ -5,7 +5,7 @@
 1. Configuration profiles
 2. Screen time settings
 3. Standard/administrator account separation on Macs
-4. Digital time-delay lockboxes which hold the passcodes to the other three layers
+4. A digital time-delay Lockbox which holds the passcodes to the other three layers
 
 Omitting any layer of protection renders these digital controls ineffective by opening loopholes that take seconds to exploit.
 
@@ -19,7 +19,7 @@ The following are blocked from all of your devices:
 - News
 - Religion
 - Dating apps
-- Doordash and similar sites
+- Food Delivery
 - Loopholes like internet archives, torrents, and pirating
 
 It is impossible to bypass these blocks except through two methods
@@ -150,12 +150,16 @@ In the **General** section
 - Set **Automatically Remove Profile** to **Never**
 
 In the **Restrictions** section
+- Disable **Allow Siri while device is locked**
+- Disable **Show user-generated content in Siri (supervised only)**
 - Disable **Allow Siri**
 - Disable **Allow Siri Suggestions**
+- Disable **Allow app clips (supervised only)**
 - Disable **Allow Erase All Content and Settings (supervised only)**
 - Disable **Allow installing configuration profiles (supervised only)**
 - Disable **Allow adding VPN configurations (supervised only)**
 - Enable **Force automatic date and time (supervised only)**
+- Disable **Allow modifying account settings (supervised only)**
 - Disable **Allow pairing with non-Configurator hosts (supervised only)**
 - Disable **Allow putting into recovery mode from an unpaired device (supervised only)**
 - Disable **Allow Image Playground (supervised only)**
