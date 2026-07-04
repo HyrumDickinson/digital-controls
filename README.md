@@ -269,21 +269,29 @@ Confirm that in **Settings > General > Software Update** there is no option to i
 - Disable **Allow News**
 
 ## 8. Lockbox
-*Your Lockbox Passwords, which you will store there and nowhere else*
-1. *Screen Time Email account*
-2. *Screen Time Apple Account*
-3. *NextDNS account*
-4. *Mac administrator account*
+*Your Lockbox Codes will be stored there and nowhere else*
 
-- Update your Lockbox Passwords so they each consist of at least 30 random letters, numbers, and symbols. Copy these passwords to your Notes app.
+Your **Lockbox Codes** are
+1. Mac administrator account password
+2. NextDNS account password
+3. Screen Time Apple Account password
+4. Screen Time Email password
+
+- Update your Lockbox Codes so they each consist of at least 30 random letters, numbers, and symbols. Copy these passwords to your Notes app.
+- Confirm that all email logins for your Lockbox Code accounts are your Screen Time Email account
+- Confirm that you do not have 2FA set up on any of your Lockbox Code accounts. Delete your Screen Time Phone Number account and ensure that it is unrecoverable
 - Create a Pluckeye account on their [website](https://lockbox.pluckeye.net/login).
 - Select **new box**. Set **Unlock Delay** to 12 hours and **Relock Delay** to 4 hours. Set **Self-destruct date** to 2100-01-01.
 - Copy the passwords from your Notes app to the **Information to store** section of your lockbox.
 - Press **Create it!**.
+- Confirm that you have Screen Time set up and syncing on your Mac standard account and turned off and not syncing on your Mac administrator account. 
+- If you have fingerprint login set on your Mac administrator account, remove it.
 - Close all apps in your Mac administrator account, reboot your Mac, and log into your Mac standard account only.
 - Using your Mac, create a random four-digit Screen Time Passcode. Ensure that you do not remember the passcode. 
-- Delete the Lockbox Passwords from your Notes app and anywhere else you have stored them on your devices, including from **Deleted** folders. 
-- At this point, your digital controls setup is complete.
+- Delete the Lockbox Codes from your Notes app and anywhere else you have stored them on your devices, including from **Deleted** folders. 
+- Lock your Lockbox by selecting **relock**.
+
+At this point, your digital controls setup is complete.
 
 ## 9. Maintenance
 *You have full control over all settings, after the lockbox time delay.*
@@ -291,18 +299,5 @@ Confirm that in **Settings > General > Software Update** there is no option to i
 To adjust any layer of your digital controls, wait 12 hours to open the Lockbox
 - To change Lockbox settings, open the Lockbox.
 - To access your Mac administrator account, open the Lockbox to get the password.
-- To change Screen Time settings, open the Lockbox to get Screen Time Apple Account passcode and use it to reset reset your Screen Time Passcode.
-- To change configuration profile settings, open the Lockbox to get the Mac administrator password. Use that to log into your Mac administrator account, from which you can use Apple Configurator to remove, modify, and reinstall configuration profiles (**.mobileconfig** files).
-
-Factory resetting a device will wipe digital controls from that device but is an all or nothing solution: you cannot modify digital control without the Lockbox unless you redo digital controls setup.
-
-
-
-
-
-
-
-
-
-
-
+- To change Screen Time settings, open the Lockbox to get your Screen Time Apple Account passcode and use it to reset your Screen Time Passcode.
+- To change configuration profile settings, open the Lockbox to get the Mac administrator password and log in to your Mac administrator account. Then use Apple Configurator to remove, modify, or reinstall configuration profiles.
