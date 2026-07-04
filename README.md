@@ -1,5 +1,5 @@
 # What digital controls do
-*Technology can be both beneficial and harmful. Self control fails to limit the harmful ([see why](Why-Use-Digital-Controls.md)).*
+*Technology can be both beneficial and harmful. Self control alone is less effective at limiting the harmful than when paired with digital controls ([see why](Why-Use-Digital-Controls.md)).*
 
 ### 4-layer protection
 1. Configuration profiles
