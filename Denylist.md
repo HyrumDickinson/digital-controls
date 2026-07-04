@@ -2,7 +2,7 @@
 
 The following are blocked in my NextDNS settings. Customize your blocks to your preferences.  
 
-Use [this](https://help.nextdns.io/t/p8yg8my/tool-nextdns-blocklist-automator-sync-custom-raw-lists-easily-100-client-side-upgrade-your-blocklist) tool and [this](Denylist-Raw.md) file to conveniently add this list to your NextDNS profile.
+Use [this](https://help.nextdns.io/t/p8yg8my/tool-nextdns-blocklist-automator-sync-custom-raw-lists-easily-100-client-side-upgrade-your-blocklist) tool and [this]([Denylist-Raw.md](https://raw.githubusercontent.com/HyrumDickinson/digital-controls/refs/heads/main/Denylist-Raw.txt) file to conveniently add this list to your NextDNS profile.
 
 ### Social Media & Forums
 ```txt
