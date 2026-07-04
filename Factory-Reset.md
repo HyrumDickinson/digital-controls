@@ -29,7 +29,7 @@ This is how employers make it impossible for their employees to remove company c
 
 Full MDM solutions are explicitly only allowed for registered companies. One reason why is because personal access to an MDM would allow anyone to install an MDM on anyone else's device that they knew the password to and had physical access to, and then remotely have permanent full control over it, able to read and write anything. This would be a significant security risk. This is also why you should never put your personal information on a company device.
 
-You could attempt to bypass Apple's rules banning individuals from owning an MDM account, to put one on your own devices and remove the factory reset loophole. [This](https://www.techlockdown.com/articles/managed-mode-iphone) guide claims to explain how. 
+You could attempt to bypass Apple's rules banning individuals from owning an MDM account, to put one on your own devices and remove the factory reset failsafe. [This](https://www.techlockdown.com/articles/managed-mode-iphone) guide claims to explain how. 
 
 I don't use an MDM because:
 1. It may be illegal 
@@ -41,15 +41,15 @@ Having the ability to wipe digital controls without waiting for the Lockbox to o
 
 At the same time, it isn't a convenient loophole for impulsive digital control bypassing because it's time-consuming to manually set devices back up, especially if you mean to restore the controls later, requiring another factory reset and manual setup. 
 
-Thus, I think the factory reset loophole is not worth closing.
+Thus, I think the factory reset failsafe is not worth closing.
 
-## Building loopholes is not recommended
+# Building loopholes is not recommended
 
 Set up correctly, digital controls are genuinely impossible to quickly bypass while you do not have full control.
 
 While you have full control, it is easy to make additional loopholes to allow near-instant bypass of digital controls later.
 
 - You could store a copy of your Lockbox codes outside the Lockbox.
-- You could store local backups of all of your devices, without and then with digital controls, to a hard drive.
+- You could store local backups of all of your devices, without and then with digital controls, to a hard drive. Then, factory reset would become very convenient.
 
 Any loophole renders digital controls no more effective than self-control alone. If you intend to rely on self-control alone, it's a waste of time and effort to set up digital controls in the first place. Thus, digital controls only make sense if you do not set up a loophole. 
