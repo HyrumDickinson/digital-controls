@@ -1,15 +1,15 @@
 # What digital controls do
 *Technology can be both beneficial and harmful. Self control alone is less effective at limiting the harmful than when paired with digital controls ([see why](Why-Use-Digital-Controls.md)).*
 
-### 4-layer protection
+### How blocks are enforced
 1. Configuration profiles
 2. Screen time settings
 3. Standard/administrator account separation on Macs
 4. A digital time-delay Lockbox which holds the passcodes to the other three layers
 
-Omitting any layer of protection renders these digital controls ineffective by opening loopholes that take seconds to exploit.
+Omitting any of these 4 layers of protection renders digital controls ineffective by opening loopholes that take seconds to exploit.
 
-### What it's like to have digital controls
+### What is blocked
 The following are blocked from all of your devices:
 - Social media & forums
 - Movies, TV & podcasts
@@ -22,11 +22,15 @@ The following are blocked from all of your devices:
 - Food Delivery
 - Loopholes like internet archives, torrents, and pirating
 
-It is impossible to bypass these blocks except through two methods
+Customize your blocks to your preferences.
+
+### How to bypass blocks
+
+It is impossible to bypass or edit these blocks except through two methods
 1. Waiting 12 hours (recommended)
 2. Factory resetting your devices ([see more](Factory-Reset.md))
 
-Once you have bypassed these blocks, you have **full control**. All blocks and settings, including the lockbox wait time, are 100% customizable to your personal preferences during setup and while you have full control.
+Once you have bypassed these blocks, you have **full control**.
 
 
 
