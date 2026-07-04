@@ -1,4 +1,4 @@
-# Technology is beneficial and harmful
+# Technology can be both beneficial and harmful
 
 | Beneficial  | Harmful  |
 | --- | --- |
@@ -6,9 +6,7 @@
 | The internet enables you to comfortably socialize with family and friends at any distance, making it effortless to be socially connected. |  The internet enables you to comfortably replace real socialization with feeds and bots, making it effortless to be socially isolated. |
 | Computers take meaningless but necessary tasks that would otherwise to be very time-consuming and finishes them faster, freeing up time for more meaningful parts of life. | Computers take meaningless but enjoyable pastimes that would otherwise be minimally time-consuming and keeps them entertaining for longer, taking time from more meaningful parts of life.	
 
-# Self control alone fails and digital controls succeed
-
-### Why self control fails
+# Self control alone is less effective at limiting the harmful than when paired with digital controls
 
 Say someone has an internet addiction. 
 
@@ -24,8 +22,6 @@ Common recommendations to reduce screen time include deleting social media apps 
 *A smoker will have a hard time quitting if there is always a pack of cigarettes in a pocket that takes seconds to open.*
 
 Trying to quit an internet addiction that is always instantly accessible in your pocket is as ineffective as a smoker trying to quit smoking with cigarettes always instantly accessible in his pocket.
-
-### Why digital controls succeed
 
 It is unnecessary to rely exclusively on unreliable self-control, because digital problems are uniquely well-suited to having digital solutions. My digital controls make it impossible to access blocked content without waiting for a 12 hour delay, or factory resetting your devices.
 
