@@ -10,7 +10,6 @@
 Omitting any of these 4 layers of protection renders digital controls ineffective by opening [loopholes](Loophole.md) that take seconds to exploit. 
 
 ### What is blocked
-My [recommendations](Recommendations.md) lead to the following being blocked from all of your devices:
 - Social media & forums
 - Movies, TV & podcasts
 - Games
@@ -22,7 +21,7 @@ My [recommendations](Recommendations.md) lead to the following being blocked fro
 - Food Delivery
 - Loopholes like internet archives, torrents, and pirating
 
-Customize your blocks to your preferences. It is not necessary to have the same blocks as me to have the same amount of control.
+Customize your blocks to your preferences. [These settings](Recommendations.md) can be changed without opening loopholes.
 
 ### How to bypass blocks
 
