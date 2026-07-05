@@ -1,75 +1,31 @@
 # Restore Devices after Reset
-
-The following are my personal preferences. They are not necessarily recommendations but may be useful for reference.
+The following are my preferences. They are not necessarily recommendations but may be useful for reference.
 
 ## Setup Choices
-
-### Mac
-
-- Select **English** for Language
-- Select **United States** for Select Your Country or Region
-- Select **Set up as new** for Transfer Your Data to This Mac
-- Ignore the Accessibility settings
-- Follow [these](https://github.com/HyrumDickinson/digital-controls/blob/main/README.md#factory-reset-your-mac) instructions for Create a Mac Account
-- Log in to iCloud and **Agree** to the Terms and Conditions
-- Select **Customize Settings** for Your Mac Settings
-- Select **Enable Location Services on this Mac**
-- Select **Share Mac Analytics with Apple** and **Share crash and usage data with app developers** for Analytics
-- Select **Set Up Later** for Screen Time
-- Set up Apple Intelligence
-- Select **Choose Notifications to Summarize**, then select **News & Entertainment**, **Communication & Social**, and **All Other Apps**
-- Set up Siri
-- Select **Share Audio Recordings** for Improve Siri & Dictation
-- Set up Touch ID
-- Set up Apple Pay
-- Select **Auto** for Choose Your Look
-- Select **Continue** for Update Mac Automatically
-
-### iPhone
-- Select **English** for Language
-- Select **United States** for Select Your Country or Region
-- Select **Default** for Appearance
-- Select **Continue with Partial Setup** for iPad Partially Set Up
-- Select **Don't Transfer Anything** for Transfer Your Apps & Data
-- Set up Face ID and select **Don't Use Face ID with a Mask**
-- Sign in using your Apple Account
-- Select **Agree** for Terms and Conditions
-- Select **Customize** for Your iPad Settings
-- Select **Continue** for Update Your iPad Automatically
-- Select **Turn On Location Services**
-- Set up Apple Pay
-- Select **Set Up Later in Settings** for Screen Time
-- Select **Share with Apple** for iPhone Analytics
-- Select **Share with App Developers** for App Analytics
-- Select **Auto** for Light or Dark Display
-- Set up Apple Intelligence
-- Select **Choose Notifications to Summarize**, then select **News & Entertainment**, **Communication & Social**, and **All Other Apps**
-- Select **Turn On Priority Notifications**
-- Enable **Light press to adjust zoom, exposure, and more** for Camera Control
-- **Customize** Action Button and set it to **Flashlight**
-- Set up Siri
-- Select **Share Audio Recordings** for Improve Siri & Dictation
-
-### iPad
-- Select **English** for Language
-- Select **United States** for Select Your Country or Region
-- Select **Default** for Appearance
-- Select **Continue with Partial Setup** for iPad Partially Set Up
-- Select **Don't Transfer Anything** for Transfer Your Apps & Data
-- Set up Face ID
-- Sign in using your Apple Account
-- Select **Agree** for Terms and Conditions
-- Select **Customize** for Your iPad Settings
-- Select **Continue** for Update Your iPad Automatically
-- Select **Turn On Location Services**
-- Set up Apple Pay
-- Select **Set Up Later in Settings** for Screen Time
-- Select **Share with Apple** for iPad Analytics
-- Select **Share with App Developers** for App Analytics
-- Select **Auto** for Light or Dark Display
-- Set up Siri
-- Select **Share Audio Recordings** for Improve Siri & Dictation
-- Select **Full Screen & Windowed Apps** for Multitasking & Windowing
+| Prompt | Choice |
+|---|---|
+| Language | English |
+| Select Your Country or Region | United States |
+| Appearance | Default |
+| Device Partially Set Up | Continue with Partial Setup |
+| Transfer Your Apps & Data | Don't Transfer Anything |
+| Location Services | Yes |
+| Apple Analytics | Yes
+| App Analytics | Yes |
+| Screen Time | No (you'll set this up later) |
+| Apple Intelligence | Yes |
+| Choose Notifications to Summarize | News & Entertainment, Communication & Social, All Other Apps |
+| Priority Notifications | Yes
+| Camera Control | Light press to adjust zoom, exposure, and more |
+| Action Button | Flashlight |
+| Siri | Yes |
+| Improve Siri & Dictation | Share Audio Recordings |
+| Touch ID | Yes |
+| Face ID | Yes, Don't Use Face ID with a Mask |
+| Apple Pay | Yes |
+| Light or Dark Display | Auto |
+| Update Device Automatically | Yes |
+| Multitasking & Windowing | Full Screen & Windowed Apps | 
 
 
 ## Apps
@@ -94,7 +50,7 @@ From the web, download:
 - [Anki](https://apps.ankiweb.net)
 - [Grammarly Desktop](https://app.grammarly.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Zoom](https://zoom.us/download?os=mac)
+- [Zoom](https://zoom.us/download)
 
 ### iPhone
 Delete
@@ -268,13 +224,6 @@ Log into all of your apps. If prompted, allow
 | Improve Safety Features | Share My Data With Apple | always
 | Allow iCloud Syncing | Allow | always
 
-|Popup|Selection|
-|---|---|
-| Add (phone number) for iMessage and FaceTime | Yes |
-| Wi-Fi Calling | Turn On |
-| Upgrade to Wi-Fi Calling | Enable |
-| Your Location Will Be Used to Make Emergency Calls | OK |
-
 When Connecting Airpods
 - Select **Announce Calls & Notifications**
 
@@ -299,6 +248,13 @@ In **Settings > Apps > Safari > Extensions**, for **uBlock Origin Lite** and **N
 - Enable **Allow Extension**
 - Enable **Allow in Private Browsing**
 - Set **All Websites** to **Allow**
+
+|Popup|Selection|
+|---|---|
+| Add (phone number) for iMessage and FaceTime | Yes |
+| Wi-Fi Calling | Turn On |
+| Upgrade to Wi-Fi Calling | Enable |
+| Your Location Will Be Used to Make Emergency Calls | OK |
 
 ## Development on Mac
 
