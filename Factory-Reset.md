@@ -6,7 +6,7 @@ Options include
 - Factory reset using your iCloud account
 - Factory reset using your Mac
 
-Factory reset is not recommended because a reset wiping digital controls from a device precludes restoring from a backup (restoring from a backup would restore the digital controls [if you followed the setup instructions](https://github.com/HyrumDickinson/digital-controls/blob/main/Factory-Reset.md#building-loopholes-is-not-recommended)). Then, restoring digital controls after wiping them with a factory reset and setting up the device without them takes hours, because again, you have to factory reset and can't restore from a backup. In contrast, adjusting settings to unblock or reblock content, or even remove layers of protection entirely, takes minutes when the Lockbox is open.
+Factory reset is not recommended because a reset wiping digital controls from a device precludes restoring from a backup, as restoring from a backup would restore the digital controls (unless you kept a backup from before digital controls were set up, which you [should not do](Loophole.md)). Then, restoring digital controls after wiping them with a factory reset and setting up the device without them takes hours, because again, you have to factory reset and can't restore from a backup. In contrast, adjusting settings to unblock or reblock content, or even remove layers of protection entirely, takes minutes when the Lockbox is open.
 
 However, in a pinch when you can't wait 12 hours for your Lockbox to open, factory reset is faster. Your digital controls are completely erased from the device within about half an hour after starting.
 
@@ -40,4 +40,3 @@ Having the ability to wipe digital controls without waiting for the Lockbox to o
 At the same time, it isn't a convenient loophole for impulsive digital control bypassing because it's time-consuming to manually set devices back up, especially if you mean to restore the controls later, requiring another factory reset and manual setup. 
 
 Thus, I think the factory reset failsafe is not worth closing.
-Any loophole renders digital controls no more effective than self-control alone. If you intend to rely on self-control alone, it's a waste of time and effort to set up digital controls in the first place. Thus, digital controls only make sense if you do not set up a loophole. 
