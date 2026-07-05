@@ -1,8 +1,10 @@
 # Allowed Apps
 
-*Your owned app list may take several hours to sync across devices after you first turn on App & Website Activity.*
+*Your owned app list may take several hours to sync across devices after you first turn on App & Website Activity. There may be separate entries for the Mac and iOS/iPadOS versions of the same app.*
 
 The following are my **Settings > Screen Time > Downtime > Always Allowed** apps. They must be allowed to ensure you have access to critical banking, travel, and communication apps during Downtime. Customize your Always Allowed apps to your preferences. 
+
+
 
 ```txt
 Airbnb
