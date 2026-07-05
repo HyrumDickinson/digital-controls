@@ -53,7 +53,6 @@ Font Book
 Freeform
 GarageBand
 Grammarly Desktop
-Grammarly: AI Keyboard & Notes
 iCover: Live UIUC Bar Covers
 Illini
 Illinois
