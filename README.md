@@ -10,16 +10,18 @@
 Omitting any of these 4 layers of protection renders digital controls ineffective by opening [loopholes](Loophole.md) that take seconds to exploit. 
 
 ### What is blocked
-- Social media & forums
-- Movies, TV & podcasts
-- Games
-- NSFW content
-- most Artificial Intelligence
-- News
-- Religion
-- Dating apps
-- Food Delivery
-- Loopholes like internet archives, torrents, and pirating
+```txt
+Social media & forums
+Movies, TV & podcasts
+Games
+NSFW content
+most Artificial Intelligence
+News
+Religion
+Dating apps
+Food Delivery
+Loopholes like internet archives, torrents, and pirating
+```
 
 Customize your blocks to your preferences. [These settings](Recommendations.md) can be changed without opening loopholes.
 
