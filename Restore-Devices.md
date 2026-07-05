@@ -5,6 +5,7 @@ The following are my personal preferences. They are not necessarily recommendati
 ## Setup Choices
 
 ### Mac
+
 - Select **English** for Language
 - Select **United States** for Select Your Country or Region
 - Select **Set up as new** for Transfer Your Data to This Mac
@@ -75,17 +76,19 @@ The following are my personal preferences. They are not necessarily recommendati
 
 ### Mac
 From the Mac App Store, download:
-- Apple Configurator
-- Beeper
-- GarageBand
-- iMovie
-- Keynote: Design Presentations
-- Noir - Dark Mode for Safari
-- Numbers: Make Spreadsheets
-- Pages: Create Documents
-- Paprika Recipe Manager 3
-- uBlock Origin Lite
-- Xcode
+```txt
+Apple Configurator
+Beeper
+GarageBand
+iMovie
+Keynote: Design Presentations
+Noir - Dark Mode for Safari
+Numbers: Make Spreadsheets
+Pages: Create Documents
+Paprika Recipe Manager 3
+uBlock Origin Lite
+Xcode
+```
 
 From the web, download:
 - [Anki](https://apps.ankiweb.net)
@@ -94,138 +97,147 @@ From the web, download:
 - [Zoom](https://zoom.us/download?os=mac)
 
 ### iPhone
-Delete the following apps:
-- Games
-- iTunes Store
-- News
-- Playground
-- Podcasts
-- Stocks
-- Tips
-- TV
+Delete
+```txt
+Games
+iTunes Store
+News
+Playground
+Podcasts
+Stocks
+Tips
+TV
+```
 
-Remove these apps from the Home Screen:
-- App Store
-
-Download these apps:
-- Chase
-- OnePay
-- Beeper
-- Anki
-- ResidentPortal
-- Sports
-- Apple Store
-- Support
-- Numbers
-- Pages
-- Keynote
-- Splitwise
-- Paprika 3
-- Noir
-- uBlock Origin Lite
-- Beli
-- Zipcar
-- OpenTable
-- AlaskaHawaiian
-- JetBlue
-- MyFitnessPal
-- Airbnb
-- Lyft
-- American
-- Target
-- Expedia
-- United
-- Walgreens
-- Walmart
-- State Farm
-- Amazon
-- MyChart
-- SpotHero
-- Zoom
-- Ventra
-- Venmo
-- Ticketmaster
-- PayPal
-- Duo Mobile
-- Amtrak
-- AMC Theatres
-- Illinois
-- FlixBus
-- AliExpress
-- ASICS
-- AutoZone
-- ChessClock
-- Illini
-- Flighty
-- Fly Delta
-- ICover: Live UIUC Bar Covers
-- MobileMeter
-- MyTSA
-- Nike
-- ParkChicago
-- Picsew
-- Southwest
-- Strong
-- TripIt
-- Wanderlog
+Download
+```txt
+Chase
+OnePay
+Beeper
+Anki
+ResidentPortal
+Sports
+Apple Store
+Support
+Numbers
+Pages
+Keynote
+Splitwise
+Paprika 3
+Noir
+uBlock Origin Lite
+Beli
+Zipcar
+OpenTable
+AlaskaHawaiian
+JetBlue
+MyFitnessPal
+Airbnb
+Lyft
+American
+Target
+Expedia
+United
+Walgreens
+Walmart
+State Farm
+Amazon
+MyChart
+SpotHero
+Zoom
+Ventra
+Venmo
+Ticketmaster
+PayPal
+Duo Mobile
+Amtrak
+AMC Theatres
+Illinois
+FlixBus
+AliExpress
+ASICS
+AutoZone
+ChessClock
+Illini
+Flighty
+Fly Delta
+ICover: Live UIUC Bar Covers
+MobileMeter
+MyTSA
+Nike
+ParkChicago
+Picsew
+Southwest
+Strong
+TripIt
+Wanderlog
+```
 
 ### iPad
 Remove all widgets
 
-Delete the following apps:
-- Calculator
-- Calendar
-- Clock
-- Contacts
-- FaceTime
-- Files
-- Games
-- Health
-- Home
-- iTunes Store
-- Journal
-- Magnifier
-- Maps
-- Mail
-- Measure
-- Music
-- News
-- Photo Booth
-- Podcasts
-- Reminders
-- Shortcuts
-- Stocks
-- Tips
-- Translate
-- TV
-- Voice Memos
-- Weather
+Delete
+```txt
+Calculator
+Calendar
+Clock
+Contacts
+FaceTime
+Files
+Games
+Health
+Home
+iTunes Store
+Journal
+Magnifier
+Maps
+Mail
+Measure
+Music
+News
+Photo Booth
+Podcasts
+Reminders
+Shortcuts
+Stocks
+Tips
+Translate
+TV
+Voice Memos
+Weather
+```
 
 In **Settings > Home Screen & App Library**
 - Disable **Show App Library in Dock**
 - Disable **Show Suggested and Recent Apps in Dock**
 
-Download the following apps from the App Store:
-- Noir
-- uBlock Origin Lite
+Download
+```txt
+Noir
+uBlock Origin Lite
+```
 
-Remove these apps from the Home Screen:
-- App Store
-- Books
-- Camera
-- Find My
-- Messages
-- Noir
-- Passwords
-- Phone
-- Photos
-- Safari
-- Settings
-- uBlock Origin Lite
+Remove from Home Screen
+```txt
+App Store
+Books
+Camera
+Find My
+Messages
+Noir
+Passwords
+Phone
+Photos
+Safari
+Settings
+uBlock Origin Lite
+```
 
-Move these apps to the Dock
-- Notes
-- Preview
+Move to Dock
+```txt
+Notes
+Preview
+```
 
 In **Settings > Apple Pencil**
 - Enable **Only Draw with Apple Pencil**
@@ -236,7 +248,7 @@ In **Settings > Apple Pencil**
 ### Universal Popups, Permissions, and Settings
 
 Log into all of your apps. If prompted, allow
-|Popup|Selection|When|
+|Permission|Selection|When|
 |---|---|---|
 | "App" Would Like to Send You Notifications* | Allow | sparingly
 | Allow "App" to use your location | Allow While Using App | always
@@ -256,12 +268,12 @@ Log into all of your apps. If prompted, allow
 | Improve Safety Features | Share My Data With Apple | always
 | Allow iCloud Syncing | Allow | always
 
-Popups
-- At the **Add (phone number) for iMessage and FaceTime** popup select **Yes**
-- At the **Wi-Fi Calling** popup select **Turn On**
-- At the **Upgrade to Wi-Fi Calling** popup select **Enable**
-- At the **Upgrade to Wi-Fi Calling?** popup select **Enable**
-- At the **Your Location Will Be Used to Make Emergency Calls** popup select **OK**
+|Popup|Selection|
+|---|---|
+| Add (phone number) for iMessage and FaceTime | Yes |
+| Wi-Fi Calling | Turn On |
+| Upgrade to Wi-Fi Calling | Enable |
+| Your Location Will Be Used to Make Emergency Calls | OK |
 
 When Connecting Airpods
 - Select **Announce Calls & Notifications**
