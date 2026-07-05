@@ -1,4 +1,4 @@
-# Denylist
+# Allowlist
 
 The following are allowed in my NextDNS settings. They must be allowed to ensure critical Apple, Zoom, and NextDNS functionality works. Customize your allowlist to your preferences.
 

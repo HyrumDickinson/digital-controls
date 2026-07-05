@@ -1,6 +1,8 @@
 # Restore Devices after Reset
 
-The following are my guidelines for restoring apps and settings after a reset without restoring from a backup. Customize your guidelines to your preferences.
+The following are not guidelines. 
+
+This is how I set up my devices, and will not necessarily fit your needs.
 
 
 ## Setup Choices

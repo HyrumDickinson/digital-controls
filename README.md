@@ -90,7 +90,7 @@ Go to **Settings > Users & Groups > Add User**:
 ## 4. Get NextDNS
 *This is a free DNS service that can filter all webtraffic through your devices and will be locked to them by your supervising entity. See a good explaination of NextDNS's settings options [here](https://github.com/yokoffing/NextDNS-Config). My choices differ from theirs.*
 
-- Sign up for a free account at [NextDNS](https://nextdns) using your Screen Time Apple Account
+- Sign up for a free account at [NextDNS](https://nextdns.io) using your Screen Time Apple Account
 
 ### Security
 - Enable **Threat Intelligence Feeds**
@@ -301,7 +301,7 @@ Your **Lockbox Codes** are
 At this point, your digital controls setup is complete.
 
 ## 9. Maintenance
-*You have full control over all settings, after the lockbox time delay.*
+*You have full control over all settings, after the Lockbox time delay.*
 
 To adjust any layer of your digital controls, wait 12 hours to open the Lockbox
 - To change Lockbox settings, open the Lockbox.
