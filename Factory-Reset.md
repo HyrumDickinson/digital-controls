@@ -1,6 +1,4 @@
-# Factory reset is a failsafe
-
-## The factory reset failsafe
+# The factory reset failsafe
 
 While digital controls are on, factory reset using your device's settings app is impossible. However, it is always possible to factory reset an Apple device that you have physical access to. 
 
