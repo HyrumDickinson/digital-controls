@@ -227,6 +227,9 @@ Move these apps to the Dock
 - Notes
 - Preview
 
+In **Settings > Apple Pencil**
+- Enable **Only Draw with Apple Pencil**
+- Disable **Scribble**
 
 ## Settings
 
