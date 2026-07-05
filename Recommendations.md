@@ -2,9 +2,7 @@
 
 **Customize your settings to your preferences.**
 
-The following are set in my setup. 
-
-Following or not following these recommendations will not affect the control you have over your devices, although it will affect [what is blocked](README.md#what-is-blocked).
+The following are set in my setup. Following or not following these recommendations will not affect the control you have over your devices, although it will affect [what is blocked](README.md#what-is-blocked).
 
 ## Top-Level Domains (TLDs)
 I recommend being restrictive with TLD blocks, because foreign TLDs open a loophole giving access to sites whose American versions you want blocked. Blocking TLDs is much easier than manually blocking each country's version of each site you want blocked.
