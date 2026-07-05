@@ -10,7 +10,7 @@ The following are my guidelines for restoring apps and settings after a reset wi
 - Select **United States** for Select Your Country or Region
 - Select **Set up as new** for Transfer Your Data to This Mac
 - Ignore the Accessibility settings
-- Follow the instructions in [README.md](README.md) for Create a Mac Account
+- Follow [these](https://github.com/HyrumDickinson/digital-controls/blob/main/README.md#factory-reset-your-mac) instructions for Create a Mac Account
 - Log in to iCloud and **Agree** to the Terms and Conditions
 - Select **Customize Settings** for Your Mac Settings
 - Select **Enable Location Services on this Mac**
