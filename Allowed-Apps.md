@@ -104,7 +104,6 @@ Sports
 SpotHero
 State Farm
 Strong
-Stronglifts 5x5 Workout Plan
 Support
 Target
 Terminal
