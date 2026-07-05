@@ -36,9 +36,9 @@ Equivalent to this is to say that I block [these](Websites-Apps-&-Games.txt) Web
 In my **NextDNS > Parental Control > Categories** settings, I block [all](Categories.txt) categories.
 
 ## Denylist
-In my **NextDNS > Denylist** settings, I block [these](Denylist-Raw.txt) domains. 
+In my **NextDNS > Denylist** settings, I block [these](Denylist.txt) domains. 
 
-Creating a long Denylist may be time-consuming if done manually. Use [this](https://help.nextdns.io/t/p8yg8my/tool-nextdns-blocklist-automator-sync-custom-raw-lists-easily-100-client-side-upgrade-your-blocklist) tool to automate it. You can add my list using [this](https://raw.githubusercontent.com/HyrumDickinson/digital-controls/refs/heads/main/Denylist-Raw.txt) url. 
+Creating a long Denylist may be time-consuming if done manually. Use [this](https://help.nextdns.io/t/p8yg8my/tool-nextdns-blocklist-automator-sync-custom-raw-lists-easily-100-client-side-upgrade-your-blocklist) tool to automate it. You can add my list using [this](https://raw.githubusercontent.com/HyrumDickinson/digital-controls/refs/heads/main/Denylist.txt) url. 
 
 ## Configuration Profile Settings
 - Disable **Allow Siri while device is locked**
