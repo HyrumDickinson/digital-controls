@@ -236,21 +236,25 @@ In **Settings > Apple Pencil**
 ### Universal Popups, Permissions, and Settings
 
 Log into all of your apps. If prompted, allow
-- To **"App" Would Like to Send You Notifications** choose **Allow** sparingly
-- To **Allow "App" to use your location** choose **Allow While Using App** always
-- To **Personalized Ads** choose **Turn On Personalized Ads** always
-- To **"App" would like full access to your Calendar** choose **Allow Full Access** always
-- To **Do you want to allow "App" to use Face ID** choose **Allow** always
-- To **Allow "App" to track your activity across other companies' apps and websites** choose **Allow** always
-- To **Allow "App" to access your visited places** choose **Allow** always
-- To **Allow "App" to share that you have notifications silenced when using Focus** choose **Allow** always
-- To **Allow "App" to find Bluetooth devices** choose **Allow** always
-- To **"App" would like to access the Microphone** choose **Allow** always
-- To **"App" would like to access the Camera** choose **Allow** always
-- To **"App" would like to access your Motion & Fitness activity** choose **Allow** always
-- To **"App" would like full access to your Photo Library** choose **Limit Access** always
-- To **Improve Safety Features** choose **Share My Data With Apple** always
-- To **Allow iCloud Syncing** choose **Allow** always
+|Popup|Selection|When|
+|---|---|---|
+| "App" Would Like to Send You Notifications* | Allow | sparingly
+| Allow "App" to use your location | Allow While Using App | always
+| "App" would like full access to your Calendar | Allow Full Access | always
+| Do you want to allow "App" to use Face ID | Allow | always
+| Allow "App" to track your activity across other companies' apps and websites | Allow | always
+| Allow "App" to access your visited places | Allow | always
+| Allow "App" to share that you have notifications silenced when using Focus | Allow | always
+| Allow "App" to find Bluetooth devices | Allow | always
+| Allow "App" to Access Your Media Library | Allow | always
+| "App" would like to access the Microphone | Allow | always
+| "App" would like to access the Camera | Allow | always
+| "App" would like to access your Motion & Fitness activity | Allow | always
+| "App" would like full access to your Photo Library | Limit Access | always
+|​"App” Would Like to Access Your Contacts | Allow Full Access | always
+| Personalized Ads | Turn On Personalized Ads | always
+| Improve Safety Features | Share My Data With Apple | always
+| Allow iCloud Syncing | Allow | always
 
 Popups
 - At the **Add (phone number) for iMessage and FaceTime** popup select **Yes**
