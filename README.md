@@ -220,8 +220,15 @@ Confirm that in **Settings > General > Software Update** there is no option to i
 - Enable **Block at Downtime**
 
 ### App Limits
-- Create a **1 minute** app limit for **Journal** and enable **Block at end of limit**
-- Create a **1 hour** app limit for **Music** and enable **Block at end of limit**
+For each App Limit enable **Block at end of limit**
+- Create a **1 minute** app limit for **Journal**
+- Create a **1 hour** app limit for **Music** and
+- Create a **0 minute** app limit for
+  - **Games**
+  - **Chess**
+  - **Apple TV**
+  - **Podcasts**
+  - **News**
 
 ### Always Allowed
 - Add [these](Allowed-Apps.md) apps. It may take some time for your app list to sync between your devices. If apps are missing, ensure all devices are charging and wait for them to sync.

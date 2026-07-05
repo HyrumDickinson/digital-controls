@@ -88,8 +88,6 @@ aloha-browser.com
 alphacoders.com
 alphanovel.io
 alternet.org
-amazon.com
-amazon.com/fresh
 amc.com
 amcal.com.au
 amcon.com
@@ -128,8 +126,6 @@ anyscale.com
 anyword.com
 aol.com
 apnews.com
-apple.com/podcasts
-apple.com/tv
 apple.news
 applebees.com
 appleinsider.com
@@ -217,8 +213,6 @@ battimellis.com
 battle.net
 battlestategames.com
 bbc.co.uk
-bbc.co.uk/iplayer
-bbc.co.uk/podcasts
 bbc.com
 bbpress.org
 bbqchicken.com
@@ -420,7 +414,7 @@ capriottis.com
 captainds.com
 cardenasmarkets.com
 care2.com
-careem.com/food
+careem.com
 cariboucoffee.com
 caringbridge.org
 carinos.com
@@ -445,7 +439,6 @@ catholicnewsagency.com
 cava.com
 caviar.com
 cbc.ca
-cbc.ca/gem
 cboard.cprogramming.com
 cbr.com
 cbs.com
@@ -553,7 +546,6 @@ cleveland.com
 cleverbot.com
 clickhold.com
 cloob.com
-cloudflare.com/community
 cloudgames.com
 clover.com
 clubpenguin.com
@@ -1128,6 +1120,7 @@ gamerdna.com
 gamerevolution.com
 gamergate.com
 gamersyde.com
+games.apple.com
 games.pch.com
 gamesindustry.biz
 gamespot.com
@@ -1178,7 +1171,6 @@ gimletmedia.com
 gino-east.com
 gioninos.com
 giordanos.com
-github.com/copilot
 gitlab.com
 givingli.com
 gizmodo.com
@@ -1901,7 +1893,6 @@ miamiherald.com
 miaopai.com
 michels.com.au
 micro.blog
-microsoft.com/xbox
 midjourney.com
 miestai.net
 migros.ch
@@ -2128,21 +2119,18 @@ normans.com
 northgatemarkets.com
 notablebiographies.com
 nothingbundtcakes.com
-notion.so/product/ai
 notthebee.com
 nourishlife.com.au
 novelai.net
 now.gg
 npcnewsonline.com
 npr.org
-npr.org/podcasts
 ntucfairprice.com.sg
 num-pizza.com
 numero.com
 nurturelife.com
 nutch.apache.org
 nutrisystem.com
-nvidia.com/en-us/ai-data-science
 nyaa.si
 nycaviation.com
 nydailynews.com
@@ -2390,6 +2378,7 @@ pocketfm.com
 podbean.com
 podcastalley.com
 podcastindex.org
+podcasts.apple.com
 podchaser.com
 podimo.com
 podomatic.com
@@ -3320,9 +3309,6 @@ wallpaperbetter.com
 wallpapercat.com
 wallpapers.com
 wallpapersden.com
-walmart.co.cr
-walmart.com.mx
-walmart.com/grocery
 wandtv.com
 wardshamburgers.com
 wargaming.net
