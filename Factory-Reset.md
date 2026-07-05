@@ -1,4 +1,4 @@
-# The factory reset failsafe
+# Factory reset wipes digital controls
 
 While digital controls are on, factory reset using your device's settings app is impossible. However, it is always possible to factory reset an Apple device that you have physical access to. 
 
@@ -10,7 +10,7 @@ Factory reset is not recommended because a reset wiping digital controls from a 
 
 However, in a pinch when you can't wait 12 hours for your Lockbox to open, factory reset is faster. Your digital controls are completely erased from the device within about half an hour after starting.
 
-## Options to close the factory reset failsafe
+## Options to prevent factory reset from wiping digital controls
 
 ### 1. Block factory reset when you have physical access to a device
 This is impossible.
@@ -33,7 +33,7 @@ I don't use an MDM because:
 1. It may be illegal 
 2. It may cost money
 
-## Is the factory reset failsafe worth closing?
+## Is the factory reset failsafe worth preventing?
 
 Having the ability to wipe digital controls without waiting for the Lockbox to open is a reliable failsafe in case of an issue with the Lockbox. 
 
