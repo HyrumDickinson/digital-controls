@@ -1,5 +1,5 @@
 # What digital controls do
-*Technology can be both beneficial and harmful. Self control alone is less effective at limiting the harmful than when paired with digital controls ([see why](Why-Use-Digital-Controls.md)). Digital controls are designed so that you, the user, cannot easily undo your own blocks.*
+*Technology can be both beneficial and harmful. Self control alone is less effective at limiting the harmful than when paired with digital controls ([see why](Why-Use-Digital-Controls.md)).*
 
 ### How blocks are enforced
 1. Configuration profiles
