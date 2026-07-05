@@ -54,7 +54,7 @@ If you are a student, I recommend Downtime start after midnight so it never inte
 ## App Limits
 - I have a **1 hour** App Limit for **Music**, because it's great for exercise but makes studying less efficient.
   
-- I have a **1 minute** App Limit for **Journal**, to disallow reading old entries and allow copy-pasting in a new entry.
+- I have a **1 minute** App Limit for **Journal** to allow pasting in new entries and disallow reading old entries.
 
 - I have a **0 minute** App Limit for **Games**, **Chess**, **Apple TV**, **Podcasts**, and **News**.
 
