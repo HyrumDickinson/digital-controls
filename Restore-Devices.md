@@ -1,9 +1,6 @@
 # Restore Devices after Reset
 
-The following are not guidelines. 
-
-This is how I set up my devices, and will not necessarily fit your needs.
-
+The following are my personal preferences. They are not necessarily recommendations but may be useful for reference.
 
 ## Setup Choices
 

@@ -7,10 +7,10 @@
 3. Standard/administrator account separation on Macs
 4. A digital time-delay Lockbox which holds the passcodes to the other three layers
 
-Omitting any of these 4 layers of protection renders digital controls ineffective by opening loopholes that take seconds to exploit.
+Omitting any of these 4 layers of protection renders digital controls ineffective by opening [loopholes](Loophole.md) that take seconds to exploit. 
 
 ### What is blocked
-The following are blocked from all of your devices:
+My [recommendations](Recommendations.md) lead to the following being blocked from all of your devices:
 - Social media & forums
 - Movies, TV & podcasts
 - Games
@@ -22,7 +22,7 @@ The following are blocked from all of your devices:
 - Food Delivery
 - Loopholes like internet archives, torrents, and pirating
 
-Customize your blocks to your preferences.
+Customize your blocks to your preferences. It is not necessary to have the same blocks as me to have the same amount of control.
 
 ### How to bypass blocks
 
@@ -39,11 +39,11 @@ Once you have bypassed these blocks, you have **full control**.
 *This guide is for Apple devices. Similar controls can be set up on Windows and Android devices, but the details on how to set them up may be different. Windows PCs have administrator/standard account separation comparable to Macs, and both Windows and Android have their own versions of Screen Time Settings. Windows and Android have their own methods to set up device supervision and install configuration profiles.*
 
 ## 1. Update and back up all devices.
-*Some features necessary for this guide do not exist in older software versions. Avoid beta updates because they introduce unpredictable bugs.*
+*Some features necessary for this guide do not exist in some older software versions. Avoid beta updates because they introduce unpredictable bugs.*
 
 - On all of your devices, go to **Settings > General > Software Update** and install all available non-beta updates. 
 - On all of your devices, screenshot your home screen, list of apps, and anything else you want to restore after factory reset. You will not restore your devices from backups.
-- As a reference, see my guidelines for restoring my apps and settings [here](Restore-Devices.md).
+- For reference, [this](Restore-Devices.md) is how I restore my apps and settings.
 
 ## 2. Separate administrator / standard accounts on Mac
 *Standard mode is for regular use and all restrictions implemented in this guide apply to it. Administrator mode is for unrestricted full control.*
@@ -54,7 +54,7 @@ Once you have bypassed these blocks, you have **full control**.
 - Continue setting up your Mac until you reach the home screen. Download your apps and restore your settings.
 
 ### Create a standard account
-Go to **Settings > Users & Groups > Add User**: 
+In **Settings > Users & Groups > Add User**
 - Set **New User** to **Standard**. 
 - Set **Full Name** to your first name. 
 - Set a password. 
@@ -88,9 +88,9 @@ Go to **Settings > Users & Groups > Add User**:
 - After your Apple Watch restarts, pair it with your iPhone. 
 
 ## 4. Get NextDNS
-*This is a free DNS service that can filter all webtraffic through your devices and will be locked to them by your supervising entity. See a good explaination of NextDNS's settings options [here](https://github.com/yokoffing/NextDNS-Config). My choices differ from theirs.*
+*This is a free DNS service that can filter all webtraffic through your devices and will be locked to them by your supervising entity. See more information on what the settings mean [here](https://github.com/yokoffing/NextDNS-Config). My choices differ from their recommendations.*
 
-- Sign up for a free account at [NextDNS](https://nextdns.io) using your Screen Time Apple Account
+Sign up for a free account at [NextDNS](https://nextdns.io) using your Screen Time Apple Account.
 
 ### Security
 - Enable **Threat Intelligence Feeds**
@@ -104,7 +104,7 @@ Go to **Settings > Users & Groups > Add User**:
 - Enable **Block Newly Registered Domains (NRDs)**
 - Enable **Block Dynamic DNS Hostnames**
 - Enable **Block Parked Domains**
-- Block [these](TLDs.md) **Top-Level Domains (TLDs)**
+- Consider blocking [these](Recommendations.md#top-level-domains-tlds) **Top-Level Domains (TLDs)**.
 - Enable **Block Child Sexual Abuse Material**
 
 ### Privacy
@@ -115,18 +115,29 @@ Go to **Settings > Users & Groups > Add User**:
 - Disable **Allow Affiliate & Tracking Links**
 
 ### Parental Control
-- Block [these](Websites-Apps-&-Games.md) **Websites, Apps, & Games**
-- Block [these](Categories.md) **Categories**
+- Consider blocking [these](Recommendations.md#websites-apps--games) **Websites, Apps, & Games**
+- Consider blocking [these](Recommendations.md#categories) **Categories**
 - Don't set a **Recreation Time**
 - Enable **SafeSearch**
 - Enable **YouTube Restricted Mode**
 - Enable **Block Bypass Methods**
 
 ### Denylist
-- Block [these](Denylist.md) urls
+- Consider blocking [these](Recommendations.md#denylist) domains
 
 ### Allowlist
-- Allow [these](Allowlist.md) urls
+Allow the following urls
+```txt
+us04zpns.zoom.us
+us04logfiles.zoom.us
+logfiles.zoom.us
+amp-api-search-edge.apps.apple.com
+amp-api-edge.apps.apple.com
+smoot.apple.com
+xp.apple.com
+nextdns.io
+```
+These must be allowed to ensure critical Apple, Zoom, and NextDNS functionality works. 
 
 ### Settings
 - Enable **Logs**
@@ -154,10 +165,6 @@ In the **General** section
 - Set **Automatically Remove Profile** to **Never**
 
 In the **Restrictions** section
-- Disable **Allow Siri while device is locked**
-- Disable **Show user-generated content in Siri (supervised only)**
-- Disable **Allow Siri**
-- Disable **Allow Siri Suggestions**
 - Disable **Allow app clips (supervised only)**
 - Disable **Allow Erase All Content and Settings (supervised only)**
 - Disable **Allow installing configuration profiles (supervised only)**
@@ -166,7 +173,7 @@ In the **Restrictions** section
 - Disable **Allow modifying account settings (supervised only)**
 - Disable **Allow pairing with non-Configurator hosts (supervised only)**
 - Disable **Allow putting into recovery mode from an unpaired device (supervised only)**
-- Disable **Allow Image Playground (supervised only)**
+- Consider [these](Recommendations.md#configuration-profile-settings) additional settings
 
 Save your changes and move the file to your iCloud Documents folder.
 
@@ -174,29 +181,19 @@ Save your changes and move the file to your iCloud Documents folder.
 - Connect your iPhone/iPad to your to your Mac using a USB cable. Right-click your iPhone/iPad in Apple Configurator. Select **Add > Profiles**. Select the **.mobileconfig** file. 
 - On your Mac, go to **Settings > General > Device Management**, click the **+**, and select the **.mobileconfig** file. 
 
-Go to **Settings > General > VPN & Device Management** and confirm that you see the following settings
-- **VPN** set to **Not Connected**
-- **Restrictions and Proxies** and **Configuration Profile** set to **NextDNS (and some code)**
-- Within **Configuration Profile** there should not be an option to remove the profile
-- **Configuration Profile > Restrictions** contains 
-    - Siri suggestions not allowed
-    - App ratings enforced
-    - Pairing with iTunes not allowed
-    - Image Playground not allowed
-    - Installing configuration profiles not allowed
-    - Siri while locked not allowed
-    - Automatic date & time enforced
-    - Siri uncurated content enfoced
-    - VPN creation not allowed
-    - Siri not allowed
-
-Confirm that in **Settings > General > Software Update** there is no option to install Beta Updates. Then confirm that in **Settings > General > Transfer or Reset iPhone** the  **Erase All Content and Settings** option is faded out.
+Confirm that you see the following in **Settings > General**
+- In **VPN & Device Management**
+  - **VPN** is set to **Not Connected**
+  - **Restrictions and Proxies** and **Configuration Profile** are set to **NextDNS (and some code)**
+  - Within **Configuration Profile** there's no option to remove the profile
+- In **Software Update** there's no option to install Beta Updates
+- In **Transfer or Reset iPhone** the  **Erase All Content and Settings** option is faded out
 
 ## 5. Create new Apple Account for Screen Time
 *This account will be used for Screen Time and will be the only account that can change Screen Time settings. It will not be used for any other purpose.*
 
 ### Get new burner phone number
-- Use an app that you don't use for other burner numbers to get a new screen time phone number. I use [TextFree](https://textfree.us/), which requires a subscription to receive verification codes. Get the one-month subscription and immediately cancel it via the App Store. 
+- Use an app that you don't use for other burner numbers to get a new screen time phone number. I use [TextFree](https://textfree.us/), which requires a subscription to receive verification codes. If you choose TextFree, get the one-month subscription and immediately cancel it via the App Store.*
 
 ### Get a new burner email address
 - Use a site that you don't use for other email accounts to get a new screen time email address using your burner phone number. I use [Yahoo](https://mail.yahoo.com/).
@@ -209,71 +206,28 @@ Confirm that in **Settings > General > Software Update** there is no option to i
 - On your Mac, go to **Settings > Screen Time > Lock Screen Time Settings** and set a Screen Time Passcode. When prompted, sign in using your Screen Time Apple Account.
 
 ## 7. Set Screen Time Settings
-*These settings allow customizability not available to configuration profiles. These settings are for Mac and will sync to your other devices. Mac's screen time interface differs slightly from iPhone/iPad.*
+*These settings allow customizability not available to configuration profiles. These instructions are for Mac and will sync to your other devices. Mac's Screen Time interface differs slightly from iPhone/iPad.*
 
 - Go to **Settings > Screen Time > App & Website Activity** and select **Turn on App & Website Activity**.
 
 ### Downtime
-- Set **Scheduled** to **Every Day**
-- Set **From** to **10:00 PM**
-- Set **To** to **7:00**
-- Enable **Block at Downtime**
+- Enable **Block at Downtime**.
+- For the other downtime settings, consider [these](Recommendations.md#downtime)
 
 ### App Limits
-For each App Limit enable **Block at end of limit**
-- Create a **1 hour** app limit for **Music**
-- Create a **1 minute** app limit for **Journal**
-- Create a **0 minute** app limit for
-  - **Games**
-  - **Chess**
-  - **Apple TV**
-  - **Podcasts**
-  - **News**
+- For each App Limit, enable **Block at end of limit**
+- For the other App Limits settings, consider [these](Recommendations.md#app-limits)
 
 ### Always Allowed
-- Add [these](Allowed-Apps.md) apps. It may take some time for your app list to sync between your devices. If apps are missing, ensure all devices are charging and wait for them to sync.
+- It may take some time for your app list to sync between your devices. If apps are missing, ensure all devices are charging and wait for them to sync.
+- Consider [these](Recommendations.md#always-allowed) settings
 
 ### Screen Distance
 - Enable **Screen Distance**
 
 ### Content & Privacy Restrictions
-- Enable **Content & Privacy Restrictions**
-
-### App Store, Media, Web, & Games
-- Set **Access to Web Content** to **Limit Adult Websites** and select **Customize**
-- Add [these](Restricted-Web-Content.md) urls to the **Restricted** list and select **Done**
-- Disable **Allow Music Profiles**
-- Disable **Allow Music & TV Shared Libraries**
-- Disable **Allow Adding Friends**
-- Disable **Allow Connect with Friends**
-- Disable **Allow Private Messaging**
-- Disable **Allow Avatar & Nickname Changes**
-- Disable **Allow Profile Privacy Changes**
-- Set **Allow Multiplayer Games With** to **No One**
-- Disable **Allow Nearby Multiplayer**
-
-### Intelligence & Siri
-- Disable **Image Creation**
-- Disable **Writing Tools**
-- Disable **Intelligence Extensions**
-- Disable **Allow Siri & Dictation**
-- Disable **Allow Explicit Language in Siri and Dictionary**
-- Disable **Allow Web Search Content in Siri**
-- Disable **Math Results**
-
-### Store Restrictions
-- Set **Movies** to **Don't Allow**
-- Set **TV Shows** to **Don't Allow**
-- Disable **Allow Music Videos**
-- Disable **Allow Installing Apps**
-- Disable **Allow Deleting Apps**
-- Disable **Allow In-app purchases**
-
-### App & Feature Restrictions
-- Disable **Allow Book Store**
-- Disable **Allow iTunes Store**
-- Disable **Allow Podcasts**
-- Disable **Allow News**
+- Enable **Content & Privacy Restrictions**.
+- Consider [these](Recommendations.md#content--privacy-restrictions) settings
 
 ## 8. Lockbox
 *Your Lockbox Codes will be stored there and nowhere else*

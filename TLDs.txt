@@ -1,23 +1,3 @@
-# Top-level Domains (TLDs)
-
-The following are not blocked in my NextDNS settings. Customize your blocks to your preferences.
-
-```txt
-.app
-.apple
-.co
-.com
-.edu
-.gov
-.io
-.net
-.org
-.us
-```
-
-Equivalent to this is to say that the following are blocked. Using the non-blocked list for reference during setup may be more convenient.
-
-```txt
 .aaa
 .aarp
 .abarth
@@ -1506,4 +1486,3 @@ Equivalent to this is to say that the following are blocked. Using the non-block
 .zone
 .zuerich
 .zw
-```
