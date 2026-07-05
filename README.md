@@ -221,8 +221,8 @@ Confirm that in **Settings > General > Software Update** there is no option to i
 
 ### App Limits
 For each App Limit enable **Block at end of limit**
+- Create a **1 hour** app limit for **Music**
 - Create a **1 minute** app limit for **Journal**
-- Create a **1 hour** app limit for **Music** and
 - Create a **0 minute** app limit for
   - **Games**
   - **Chess**
