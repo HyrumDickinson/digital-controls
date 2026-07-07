@@ -127,6 +127,7 @@ Southwest
 Strong
 TripIt
 Wanderlog
+GymTrakr
 ```
 
 ### iPad
@@ -284,3 +285,8 @@ IntelliJ IDEA
 PyCharm
 WebStorm
 ```
+
+In **Settings > Menu Bar > Allow in the Menu Bar**
+- Disable **Grammarly Desktop**
+- Disable **JetBrains Toolbox**
+- Disable **Zoom**

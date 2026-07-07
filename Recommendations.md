@@ -13,6 +13,7 @@ In my **NextDNS > Security > Block Top-Level Domains (TLDs)** settings, I block 
 .apple
 .co
 .com
+.dev
 .edu
 .gov
 .io
@@ -36,7 +37,7 @@ In my **NextDNS > Parental Control > Categories** settings, I block [all](Catego
 ## Denylist
 In my **NextDNS > Denylist** settings, I block [these](Denylist.txt) domains. 
 
-Creating a long Denylist may be time-consuming if done manually. Use [this](https://help.nextdns.io/t/p8yg8my/tool-nextdns-blocklist-automator-sync-custom-raw-lists-easily-100-client-side-upgrade-your-blocklist) tool to automate it. You can add my list using [this](https://raw.githubusercontent.com/HyrumDickinson/digital-controls/refs/heads/main/Denylist.txt) url. 
+Creating a long Denylist may be time-consuming if done manually. Use [this](https://nextdns-blocklist-automator.dragon-tools.workers.dev) tool to automate it. You can add my list using [this](https://raw.githubusercontent.com/HyrumDickinson/digital-controls/refs/heads/main/Denylist.txt) url. 
 
 ## Configuration Profile Settings
 - Disable **Allow Siri while device is locked**
