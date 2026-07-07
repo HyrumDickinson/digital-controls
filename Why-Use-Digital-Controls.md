@@ -25,6 +25,6 @@ Trying to quit an internet addiction that is always instantly accessible in your
 
 It is unnecessary to rely exclusively on unreliable self-control, because digital problems are uniquely well-suited to having digital solutions. My digital controls make it impossible to access blocked content without waiting for a 12 hour delay, or factory resetting your devices.
 
-*A smoker will find it far easier to quit if throws his cigarettes out, putting a real barrier between himself and cigarettes.*
+*A smoker will find it easier to quit if throws his cigarettes out, putting a real barrier between himself and cigarettes.*
 
-You will find it far easier to limit your screen time if you set up digital controls, putting a real barrier between yourself and whatever it is that you find addictive online.
+You will find it easier to limit your screen time if you set up digital controls, putting a real barrier between yourself and whatever it is that you find addictive online.

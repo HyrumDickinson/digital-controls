@@ -1,261 +1,228 @@
 # Restore Devices after Reset
-
-The following are my guidelines for restoring apps and settings after a reset without restoring from a backup. Customize your guidelines to your preferences.
-
+The following are my preferences. They are not necessarily recommendations but may be useful for reference.
 
 ## Setup Choices
-
-### Mac
-- Select **English** for Language
-- Select **United States** for Select Your Country or Region
-- Select **Set up as new** for Transfer Your Data to This Mac
-- Ignore the Accessibility settings
-- Follow the instructions in [README.md](README.md) for Create a Mac Account
-- Log in to iCloud and **Agree** to the Terms and Conditions
-- Select **Customize Settings** for Your Mac Settings
-- Select **Enable Location Services on this Mac**
-- Select **Share Mac Analytics with Apple** and **Share crash and usage data with app developers** for Analytics
-- Select **Set Up Later** for Screen Time
-- Set up Apple Intelligence
-- Select **Choose Notifications to Summarize**, then select **News & Entertainment**, **Communication & Social**, and **All Other Apps**
-- Set up Siri
-- Select **Share Audio Recordings** for Improve Siri & Dictation
-- Set up Touch ID
-- Set up Apple Pay
-- Select **Auto** for Choose Your Look
-- Select **Continue** for Update Mac Automatically
-
-### iPhone
-- Select **English** for Language
-- Select **United States** for Select Your Country or Region
-- Select **Default** for Appearance
-- Select **Continue with Partial Setup** for iPad Partially Set Up
-- Select **Don't Transfer Anything** for Transfer Your Apps & Data
-- Set up Face ID and select **Don't Use Face ID with a Mask**
-- Sign in using your Apple Account
-- Select **Agree** for Terms and Conditions
-- Select **Customize** for Your iPad Settings
-- Select **Continue** for Update Your iPad Automatically
-- Select **Turn On Location Services**
-- Set up Apple Pay
-- Select **Set Up Later in Settings** for Screen Time
-- Select **Share with Apple** for iPhone Analytics
-- Select **Share with App Developers** for App Analytics
-- Select **Auto** for Light or Dark Display
-- Set up Apple Intelligence
-- Select **Choose Notifications to Summarize**, then select **News & Entertainment**, **Communication & Social**, and **All Other Apps**
-- Select **Turn On Priority Notifications**
-- Enable **Light press to adjust zoom, exposure, and more** for Camera Control
-- **Customize** Action Button and set it to **Flashlight**
-- Set up Siri
-- Select **Share Audio Recordings** for Improve Siri & Dictation
-
-### iPad
-- Select **English** for Language
-- Select **United States** for Select Your Country or Region
-- Select **Default** for Appearance
-- Select **Continue with Partial Setup** for iPad Partially Set Up
-- Select **Don't Transfer Anything** for Transfer Your Apps & Data
-- Set up Face ID
-- Sign in using your Apple Account
-- Select **Agree** for Terms and Conditions
-- Select **Customize** for Your iPad Settings
-- Select **Continue** for Update Your iPad Automatically
-- Select **Turn On Location Services**
-- Set up Apple Pay
-- Select **Set Up Later in Settings** for Screen Time
-- Select **Share with Apple** for iPad Analytics
-- Select **Share with App Developers** for App Analytics
-- Select **Auto** for Light or Dark Display
-- Set up Siri
-- Select **Share Audio Recordings** for Improve Siri & Dictation
-- Select **Full Screen & Windowed Apps** for Multitasking & Windowing
+| Prompt | Choice |
+|---|---|
+| Language | English |
+| Select Your Country or Region | United States |
+| Appearance | Default |
+| Device Partially Set Up | Continue with Partial Setup |
+| Transfer Your Apps & Data | Don't Transfer Anything |
+| Location Services | Yes |
+| Apple Analytics | Yes
+| App Analytics | Yes |
+| Screen Time | No (you'll set this up later) |
+| Apple Intelligence | Yes |
+| Choose Notifications to Summarize | News & Entertainment, Communication & Social, All Other Apps |
+| Priority Notifications | Yes
+| Camera Control | Light press to adjust zoom, exposure, and more |
+| Action Button | Flashlight |
+| Siri | Yes |
+| Improve Siri & Dictation | Share Audio Recordings |
+| Touch ID | Yes |
+| Face ID | Yes, Don't Use Face ID with a Mask |
+| Apple Pay | Yes |
+| Light or Dark Display | Auto |
+| Update Device Automatically | Yes |
+| Multitasking & Windowing | Full Screen & Windowed Apps | 
 
 
 ## Apps
 
 ### Mac
 From the Mac App Store, download:
-- Apple Configurator
-- Beeper
-- GarageBand
-- iMovie
-- Keynote: Design Presentations
-- Noir - Dark Mode for Safari
-- Numbers: Make Spreadsheets
-- Pages: Create Documents
-- Paprika Recipe Manager 3
-- uBlock Origin Lite
-- Xcode
+```txt
+Apple Configurator
+Beeper
+GarageBand
+iMovie
+Keynote: Design Presentations
+Noir - Dark Mode for Safari
+Numbers: Make Spreadsheets
+Pages: Create Documents
+Paprika Recipe Manager 3
+uBlock Origin Lite
+Xcode
+```
 
 From the web, download:
 - [Anki](https://apps.ankiweb.net)
 - [Grammarly Desktop](https://app.grammarly.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Zoom](https://zoom.us/download?os=mac)
+- [Zoom](https://zoom.us/download)
 
 ### iPhone
-Delete the following apps:
-- Games
-- iTunes Store
-- News
-- Playground
-- Podcasts
-- Stocks
-- Tips
-- TV
+Delete
+```txt
+Games
+iTunes Store
+News
+Playground
+Podcasts
+Stocks
+Tips
+TV
+```
 
-Remove these apps from the Home Screen:
-- App Store
-
-Download these apps:
-- Chase
-- OnePay
-- Beeper
-- Anki
-- ResidentPortal
-- Sports
-- Apple Store
-- Support
-- Numbers
-- Pages
-- Keynote
-- Splitwise
-- Paprika 3
-- Noir
-- uBlock Origin Lite
-- Beli
-- Zipcar
-- OpenTable
-- AlaskaHawaiian
-- JetBlue
-- MyFitnessPal
-- Airbnb
-- Lyft
-- American
-- Target
-- Expedia
-- United
-- Walgreens
-- Walmart
-- State Farm
-- Amazon
-- MyChart
-- SpotHero
-- Zoom
-- Ventra
-- Venmo
-- Ticketmaster
-- PayPal
-- Duo Mobile
-- Amtrak
-- AMC Theatres
-- Illinois
-- FlixBus
-- AliExpress
-- ASICS
-- AutoZone
-- ChessClock
-- Illini
-- Flighty
-- Fly Delta
-- ICover: Live UIUC Bar Covers
-- MobileMeter
-- MyTSA
-- Nike
-- ParkChicago
-- Picsew
-- Southwest
-- Strong
-- TripIt
-- Wanderlog
+Download
+```txt
+Chase
+OnePay
+Beeper
+Anki
+ResidentPortal
+Sports
+Apple Store
+Support
+Numbers
+Pages
+Keynote
+Splitwise
+Paprika 3
+Noir
+uBlock Origin Lite
+Beli
+Zipcar
+OpenTable
+AlaskaHawaiian
+JetBlue
+MyFitnessPal
+Airbnb
+Lyft
+American
+Target
+Expedia
+United
+Walgreens
+Walmart
+State Farm
+Amazon
+MyChart
+SpotHero
+Zoom
+Ventra
+Venmo
+Ticketmaster
+PayPal
+Duo Mobile
+Amtrak
+AMC Theatres
+Illinois
+FlixBus
+AliExpress
+ASICS
+AutoZone
+ChessClock
+Illini
+Flighty
+Fly Delta
+ICover: Live UIUC Bar Covers
+MobileMeter
+MyTSA
+Nike
+ParkChicago
+Picsew
+Southwest
+Strong
+TripIt
+Wanderlog
+```
 
 ### iPad
 Remove all widgets
 
-Delete the following apps:
-- Calculator
-- Calendar
-- Clock
-- Contacts
-- FaceTime
-- Files
-- Games
-- Health
-- Home
-- iTunes Store
-- Journal
-- Magnifier
-- Maps
-- Mail
-- Measure
-- Music
-- News
-- Photo Booth
-- Podcasts
-- Reminders
-- Shortcuts
-- Stocks
-- Tips
-- Translate
-- TV
-- Voice Memos
-- Weather
+Delete
+```txt
+Calculator
+Calendar
+Clock
+Contacts
+FaceTime
+Files
+Games
+Health
+Home
+iTunes Store
+Journal
+Magnifier
+Maps
+Mail
+Measure
+Music
+News
+Photo Booth
+Podcasts
+Reminders
+Shortcuts
+Stocks
+Tips
+Translate
+TV
+Voice Memos
+Weather
+```
 
 In **Settings > Home Screen & App Library**
 - Disable **Show App Library in Dock**
 - Disable **Show Suggested and Recent Apps in Dock**
 
-Download the following apps from the App Store:
-- Noir
-- uBlock Origin Lite
+Download
+```txt
+Noir
+uBlock Origin Lite
+```
 
-Remove these apps from the Home Screen:
-- App Store
-- Books
-- Camera
-- Find My
-- Messages
-- Noir
-- Passwords
-- Phone
-- Photos
-- Safari
-- Settings
-- uBlock Origin Lite
+Remove from Home Screen
+```txt
+App Store
+Books
+Camera
+Find My
+Messages
+Noir
+Passwords
+Phone
+Photos
+Safari
+Settings
+uBlock Origin Lite
+```
 
-Move these apps to the Dock
-- Notes
-- Preview
+Move to Dock
+```txt
+Notes
+Preview
+```
 
+In **Settings > Apple Pencil**
+- Enable **Only Draw with Apple Pencil**
+- Disable **Scribble**
 
 ## Settings
 
 ### Universal Popups, Permissions, and Settings
 
 Log into all of your apps. If prompted, allow
-- To **"App" Would Like to Send You Notifications** choose **Allow** sparingly
-- To **Allow "App" to use your location** choose **Allow While Using App** always
-- To **Personalized Ads** choose **Turn On Personalized Ads** always
-- To **"App" would like full access to your Calendar** choose **Allow Full Access** always
-- To **Do you want to allow "App" to use Face ID** choose **Allow** always
-- To **Allow "App" to track your activity across other companies' apps and websites** choose **Allow** always
-- To **Allow "App" to access your visited places** choose **Allow** always
-- To **Allow "App" to share that you have notifications silenced when using Focus** choose **Allow** always
-- To **Allow "App" to find Bluetooth devices** choose **Allow** always
-- To **"App" would like to access the Microphone** choose **Allow** always
-- To **"App" would like to access the Camera** choose **Allow** always
-- To **"App" would like to access your Motion & Fitness activity** choose **Allow** always
-- To **"App" would like full access to your Photo Library** choose **Limit Access** always
-- To **Improve Safety Features** choose **Share My Data With Apple** always
-- To **Allow iCloud Syncing** choose **Allow** always
-
-Popups
-- At the **Add (phone number) for iMessage and FaceTime** popup select **Yes**
-- At the **Wi-Fi Calling** popup select **Turn On**
-- At the **Upgrade to Wi-Fi Calling** popup select **Enable**
-- At the **Upgrade to Wi-Fi Calling?** popup select **Enable**
-- At the **Your Location Will Be Used to Make Emergency Calls** popup select **OK**
+|Permission|Selection|When|
+|---|---|---|
+| "App" Would Like to Send You Notifications* | Allow | sparingly
+| Allow "App" to use your location | Allow While Using App | always
+| "App" would like full access to your Calendar | Allow Full Access | always
+| Do you want to allow "App" to use Face ID | Allow | always
+| Allow "App" to track your activity across other companies' apps and websites | Allow | always
+| Allow "App" to access your visited places | Allow | always
+| Allow "App" to share that you have notifications silenced when using Focus | Allow | always
+| Allow "App" to find Bluetooth devices | Allow | always
+| Allow "App" to Access Your Media Library | Allow | always
+| "App" would like to access the Microphone | Allow | always
+| "App" would like to access the Camera | Allow | always
+| "App" would like to access your Motion & Fitness activity | Allow | always
+| "App" would like full access to your Photo Library | Limit Access | always
+|​"App” Would Like to Access Your Contacts | Allow Full Access | always
+| Personalized Ads | Turn On Personalized Ads | always
+| Improve Safety Features | Share My Data With Apple | always
+| Allow iCloud Syncing | Allow | always
 
 When Connecting Airpods
 - Select **Announce Calls & Notifications**
@@ -282,6 +249,13 @@ In **Settings > Apps > Safari > Extensions**, for **uBlock Origin Lite** and **N
 - Enable **Allow in Private Browsing**
 - Set **All Websites** to **Allow**
 
+|Popup|Selection|
+|---|---|
+| Add (phone number) for iMessage and FaceTime | Yes |
+| Wi-Fi Calling | Turn On |
+| Upgrade to Wi-Fi Calling | Enable |
+| Your Location Will Be Used to Make Emergency Calls | OK |
+
 ## Development on Mac
 
 In Visual Studio Code
@@ -300,6 +274,15 @@ In Terminal
 ```zsh
 mkdir Developer
 cd Developer
+```
+
+Download [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) and use it to install
+```txt
+Clion
+DataGrip
+IntelliJ IDEA
+PyCharm
+WebStorm
 ```
 
 Download [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) and use it to install

@@ -1,6 +1,4 @@
-# Factory reset is a failsafe
-
-## The factory reset failsafe
+# Factory reset wipes digital controls
 
 While digital controls are on, factory reset using your device's settings app is impossible. However, it is always possible to factory reset an Apple device that you have physical access to. 
 
@@ -8,11 +6,11 @@ Options include
 - Factory reset using your iCloud account
 - Factory reset using your Mac
 
-Factory reset is not recommended because a reset wiping digital controls from a device precludes restoring from a backup (restoring from a backup would restore the digital controls). Then, restoring digital controls after wiping them with a factory reset and setting up the device without them takes hours, because again, you have to factory reset and can't restore from a backup (see the setup instructions for why). In contrast, adjusting settings to unblock or reblock content, or even remove layers of protection entirely, takes minutes when the Lockbox is open.
+Factory reset is not recommended because a reset wiping digital controls from a device precludes restoring from a backup, as restoring from a backup would restore the digital controls (unless you kept a backup from before digital controls were set up, which you [should not do](Loophole.md)). Then, restoring digital controls after wiping them with a factory reset and setting up the device without them takes hours, because again, you have to factory reset and can't restore from a backup. In contrast, adjusting settings to unblock or reblock content, or even remove layers of protection entirely, takes minutes when the Lockbox is open.
 
-However, in a pinch when you do not wait 12 hours for your Lockbox to open, factory reset is faster. You can access anything within about half an hour after starting. 
+However, in a pinch when you can't wait 12 hours for your Lockbox to open, factory reset is faster. Your digital controls are completely erased from the device within about half an hour after starting.
 
-## Options to close the factory reset failsafe
+## Options to prevent factory reset from wiping digital controls
 
 ### 1. Block factory reset when you have physical access to a device
 This is impossible.
@@ -35,21 +33,10 @@ I don't use an MDM because:
 1. It may be illegal 
 2. It may cost money
 
-## Is the factory reset failsafe worth closing?
+## Is the factory reset failsafe worth preventing?
 
 Having the ability to wipe digital controls without waiting for the Lockbox to open is a reliable failsafe in case of an issue with the Lockbox. 
 
 At the same time, it isn't a convenient loophole for impulsive digital control bypassing because it's time-consuming to manually set devices back up, especially if you mean to restore the controls later, requiring another factory reset and manual setup. 
 
 Thus, I think the factory reset failsafe is not worth closing.
-
-# Building loopholes is not recommended
-
-Set up correctly, digital controls are genuinely impossible to quickly bypass while you do not have full control.
-
-While you have full control, it is easy to make additional loopholes to allow near-instant bypass of digital controls later.
-
-- You could store a copy of your Lockbox codes outside the Lockbox.
-- You could store local backups of all of your devices, without and then with digital controls, to a hard drive. Then, factory reset would become very convenient.
-
-Any loophole renders digital controls no more effective than self-control alone. If you intend to rely on self-control alone, it's a waste of time and effort to set up digital controls in the first place. Thus, digital controls only make sense if you do not set up a loophole. 
