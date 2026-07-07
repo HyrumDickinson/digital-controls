@@ -284,12 +284,3 @@ IntelliJ IDEA
 PyCharm
 WebStorm
 ```
-
-Download [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) and use it to install
-```txt
-Clion
-DataGrip
-IntelliJ IDEA
-PyCharm
-WebStorm
-```
