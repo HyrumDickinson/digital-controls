@@ -280,11 +280,11 @@ Your **Lockbox Codes** are
 - Update your Lockbox Codes so they each consist of at least 30 random letters, numbers, and symbols. Copy these passwords to your Notes app.
 - Confirm that all email logins for your Lockbox Code accounts are your Screen Time Email account
 - Confirm that you do not have 2FA set up on any of your Lockbox Code accounts. Delete your Screen Time Phone Number account and ensure that it is unrecoverable
+- Confirm that you have Screen Time set up and syncing on your Mac standard account and turned off and not syncing on your Mac administrator account. 
 - Create a Pluckeye account on their [website](https://lockbox.pluckeye.net/login).
 - Select **new box**. Set **Unlock Delay** to 12 hours and **Relock Delay** to 4 hours. Set **Self-destruct date** to 2100-01-01.
 - Copy the passwords from your Notes app to the **Information to store** section of your lockbox.
 - Press **Create it!**.
-- Confirm that you have Screen Time set up and syncing on your Mac standard account and turned off and not syncing on your Mac administrator account. 
 - If you have fingerprint login set on your Mac administrator account, remove it.
 - Close all apps in your Mac administrator account, reboot your Mac, and log into your Mac standard account only.
 - Using your Mac, create a random four-digit Screen Time Passcode. Ensure that you do not remember the passcode. 
