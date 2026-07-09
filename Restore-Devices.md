@@ -262,6 +262,10 @@ On Mac, in **Settings > Menu Bar > Allow in the Menu Bar**
 - Disable **JetBrains Toolbox**
 - Disable **Zoom**
 
+On Mac, in **Finder > Settings**
+- In **General**, enable **Sync Desktop & Documents folders**
+- In **Advanced**, enable **Show all filename extensions** and enable **Remove items from the Trash after 30 days**
+
 On iPhone, in **Settings > Apps > Mail > Message List > Swipe Options**
 - Set **Swipe Right** to **Archive**
 
