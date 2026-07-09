@@ -17,6 +17,7 @@ In my **NextDNS > Security > Block Top-Level Domains (TLDs)** settings, I block 
 .edu
 .gov
 .io
+.microsoft
 .net
 .org
 .us
