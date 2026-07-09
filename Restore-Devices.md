@@ -257,6 +257,14 @@ In **Settings > Apps > Safari > Extensions**, for **uBlock Origin Lite** and **N
 | Upgrade to Wi-Fi Calling | Enable |
 | Your Location Will Be Used to Make Emergency Calls | OK |
 
+On Mac, in **Settings > Menu Bar > Allow in the Menu Bar**
+- Disable **Grammarly Desktop**
+- Disable **JetBrains Toolbox**
+- Disable **Zoom**
+
+On iPhone, in **Settings > Apps > Mail > Message List > Swipe Options**
+- Set **Swipe Right** to **Archive**
+
 ## Development on Mac
 
 In Visual Studio Code
@@ -285,8 +293,3 @@ IntelliJ IDEA
 PyCharm
 WebStorm
 ```
-
-In **Settings > Menu Bar > Allow in the Menu Bar**
-- Disable **Grammarly Desktop**
-- Disable **JetBrains Toolbox**
-- Disable **Zoom**
