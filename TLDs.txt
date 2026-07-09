@@ -330,7 +330,6 @@
 .dentist
 .desi
 .design
-.dev
 .dhl
 .diamonds
 .diet
@@ -773,7 +772,6 @@
 .mg
 .mh
 .miami
-.microsoft
 .mil
 .mini
 .mint
