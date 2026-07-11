@@ -1,5 +1,7 @@
 # What digital controls do
-*Technology can be both beneficial and harmful. Self control alone is less effective at limiting the harmful than when paired with digital controls ([see why](Why-Use-Digital-Controls.md)).*
+*Technology can be both beneficial and harmful. Self control alone is less effective at limiting the harmful than when paired with digital controls, especially for addicts ([see why](Why-Use-Digital-Controls.md)).*
+
+Digital controls are not only for addicts. I'm a computer engineer, meaning I spend quite a bit of unavoidable time at a desk on a computer for school and research. For people with screen-centric careers, spending free time on screens may result in an unhealthy amount of screen time. I find that digital controls are a far easier way to eliminate unnecessary screen time than relying exclusively on depleted willpower at the end of a long day.
 
 ### How blocks are enforced
 1. Configuration profiles
