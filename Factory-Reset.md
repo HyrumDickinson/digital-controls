@@ -8,7 +8,7 @@ Options include
 
 Factory reset is not recommended because a reset wiping digital controls from a device precludes restoring from a backup, as restoring from a backup would restore the digital controls (unless you kept a backup from before digital controls were set up, which you [should not do](Loophole.md)). Then, restoring digital controls after wiping them with a factory reset and setting up the device without them takes hours, because again, you have to factory reset and can't restore from a backup. In contrast, adjusting settings to unblock or reblock content, or even remove layers of protection entirely, takes minutes when the Lockbox is open.
 
-However, in a pinch when you can't wait 12 hours for your Lockbox to open, factory reset is faster. Your digital controls are completely erased from the device within about half an hour after starting.
+However, in a pinch when you can't wait 24 hours for your Lockbox to open, factory reset is faster. Your digital controls are completely erased from the device within about half an hour after starting.
 
 ## Options to prevent factory reset from wiping digital controls
 

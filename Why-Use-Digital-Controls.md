@@ -23,7 +23,7 @@ Common recommendations to reduce screen time include deleting social media apps 
 
 Trying to quit an internet addiction that is always instantly accessible in your pocket is as ineffective as a smoker trying to quit smoking with cigarettes always instantly accessible in his pocket.
 
-It is unnecessary to rely exclusively on unreliable self-control, because digital problems are uniquely well-suited to having digital solutions. My digital controls make it impossible to access blocked content without waiting for a 12 hour delay, or factory resetting your devices.
+It is unnecessary to rely exclusively on unreliable self-control, because digital problems are uniquely well-suited to having digital solutions. My digital controls make it impossible to access blocked content without waiting for a 24 hour delay, or factory resetting your devices.
 
 *A smoker will find it easier to quit if throws his cigarettes out, putting a real barrier between himself and cigarettes.*
 

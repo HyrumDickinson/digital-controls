@@ -28,7 +28,7 @@ Customize your blocks to your preferences. [These settings](Recommendations.md) 
 ### How to bypass blocks
 
 It is impossible to bypass or edit these blocks except through two methods
-1. Waiting 12 hours (recommended)
+1. Waiting 24 hours (recommended)
 2. Factory resetting your devices ([see more](Factory-Reset.md))
 
 Once you have bypassed these blocks, you have **full control**.
@@ -249,7 +249,7 @@ Your **Lockbox Codes** are
 - Confirm that you do not have 2FA set up on any of your Lockbox Code accounts. Delete your Screen Time Phone Number account and ensure that it is unrecoverable
 - Confirm that you have Screen Time set up and syncing on your Mac standard account and turned off and not syncing on your Mac administrator account. 
 - Create a Pluckeye account on their [website](https://lockbox.pluckeye.net/login).
-- Select **new box**. Set **Unlock Delay** to 12 hours and **Relock Delay** to 4 hours. Set **Self-destruct date** to 2100-01-01.
+- Select **new box**. Set **Unlock Delay** to 24 hours and **Relock Delay** to 24 hours. Set **Self-destruct date** to 2100-01-01.
 - Copy the passwords from your Notes app to the **Information to store** section of your lockbox.
 - Press **Create it!**.
 - If you have fingerprint login set on your Mac administrator account, remove it.
@@ -263,7 +263,7 @@ At this point, your digital controls setup is complete.
 ## 9. Maintenance
 *You have full control over all settings, after the Lockbox time delay.*
 
-To adjust any layer of your digital controls, wait 12 hours to open the Lockbox
+To adjust any layer of your digital controls, wait 24 hours to open the Lockbox
 - To change Lockbox settings, open the Lockbox.
 - To access your Mac administrator account, open the Lockbox to get the password.
 - To change Screen Time settings, open the Lockbox to get your Screen Time Apple Account passcode and use it to reset your Screen Time Passcode.
