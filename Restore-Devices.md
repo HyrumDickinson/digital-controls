@@ -1,5 +1,5 @@
 # Restore Devices after Reset
-The following are my preferences. They are not necessarily recommendations but may be useful for reference.
+The following are for my own reference. Settings that sync back to your device when you log in with iCloud are not included.
 
 ## Setup Choices
 | Prompt | Choice |
@@ -200,6 +200,35 @@ In **Settings > Apple Pencil**
 - Enable **Only Draw with Apple Pencil**
 - Disable **Scribble**
 
+## Development on Mac
+
+In Visual Studio Code
+- Sign in using **Continue with GitHub**
+- Backup and Sync Settings using **Sign in with Github**
+  
+Follow the [instructions](https://brew.sh) to install Homebrew. 
+
+In Terminal
+```zsh
+git config --global user.name "your name"
+git config --global user.email "your email"
+```
+
+In Terminal
+```zsh
+mkdir Developer
+cd Developer
+```
+
+Download [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) and use it to install
+```txt
+Clion
+DataGrip
+IntelliJ IDEA
+PyCharm
+WebStorm
+```
+
 ## Settings
 
 ### Universal Popups, Permissions, and Settings
@@ -257,43 +286,128 @@ In **Settings > Apps > Safari > Extensions**, for **uBlock Origin Lite** and **N
 | Upgrade to Wi-Fi Calling | Enable |
 | Your Location Will Be Used to Make Emergency Calls | OK |
 
-On Mac, in **Settings > Menu Bar > Allow in the Menu Bar**
-- Disable **Grammarly Desktop**
-- Disable **JetBrains Toolbox**
-- Disable **Zoom**
+### Device-Specific Settings
 
-On Mac, in **Finder > Settings**
-- In **General**, enable **Sync Desktop & Documents folders**
-- In **Advanced**, enable **Show all filename extensions** and enable **Remove items from the Trash after 30 days**
+On iPhone, in **Settings**
+- In **Your Name**
+  - In **Personal Information > Age Range for Apps** set **Share with Apps** to **Always**
+  - In **iCloud > Saved to iCloud** turn iCloud **On** or enable it for all apps
+- In **Camera > App Settings**
+  - Set **Photographic Styles** to **Standard**
+  - Set **Record Video** to **4K at 60 fps**
+  - Set **Record Cinematic** to **4K at 30 fps**
+- In **Notifications > Enhanced Safety Alerts** enable **Improve Alert Delivery**
+- In **Screen Time > Communication Safety**
+  - In **Sensitive Photos and Videos** enable **Communication Safety**
+  - In **Analytics & Improvements** enable **Improve Communication Safety**
+- In **Wallet & Apple Pay** 
+  - Disable **Apple Cash**
+  - In **Transit Cards** set an **Express Transit Card**
+- In **Apps**
+  - In **Chase**
+    - Enable **Tap to Pay on iPhone Screen Lock**
+    - Disable **Always Play Sounds**
+    - Enable **Improve Tap to Pay on iPhone**
+  - In **Freeform** set **Math Results** to **Off**
+  - In **Journal**
+    - In **Journaling Suggestions**
+    - Enable **Turn On Journaling Suggestions**
+    - In **Privacy & Security**
+      - Enable **Sync Settings**
+      - Disable **Reflection Prompts**
+    - In **New Entry**
+      - Enable **Show Suggested Moments**
+      - Enable **Add Current Location**
+      - Enable **Always Use Moment Date**
+    - In **General** enable **Lock Journal**
+    - Don't enable Health Access
+  - In **Mail** 
+    - In **Message List > Swipe Options** set **Swipe Right** to **Archive**
+    - In **Messages**
+      - In **Privacy Protection** enable **Protect Mail Activity**
+      - In **Search > Include Results From** enable **Junk** and **Trash**
+    - In **Composing**
+      - Enable **Always Bcc Myself**
+      - Set **Include Attachments with Replies** to **Always**
+      - In **Signature** erase the default signature
+  - In **Maps >**
+    - Set **Preferred Type of Travel** to **Cycling**
+    - In  **Extensions**
+      - In **Ride Booking > Ride Booking Extensions** enable **Lyft** and **Show Rides From New Apps**
+      - **Restaurant Booking > Table Booking Extensions** enable **OpenTable**
+  - In **Messages**
+    - Disable **Screen Unknown Senders**
+    - Enable **Filter Spam**
+    - In **Text Message Forwarding** enable all devices
+    - Enable **Send Read Receipts**
+  - In **Notes**
+    - In **Password**
+      - Set **Choose a Password Method** to **Use Device Passcode**
+      - Enable **Use Face ID**
+    - Disable **"On My iPhone" Account**
+    - In **Viewing** set **Sort Checked Items** to **Automatically**
+  - In **Phone > Announce Calls** set **Announce Calls** to **Headphones & Car**
+  - In **Reminders**
+    - In **Badge Count** enable **Include Due Today**
+    - In **Categorization > Grocery Categorization** enable **Set Automatically**
+  - In **Safari**
+    - In **Tabs** set **Close Tabs** to **After One Day**
+    - In **Privacy & Security** enable **Require Face ID to Unlock Private Browsing** and **Not Secure Connection Warning**
+    - In **Settings for Websites > Location** set **Location Access On All Websites** to **Allow**
+  - In **Shortcuts** enable **Private Sharing**
+  - In **Translate > Languages** download all available languages
+  - In **Venmo**
+    - Enable **Tap to Pay on iPhone Screen Lock**
+    - Disable **Always Play Sounds**
+    - Enable **Improve Tap to Pay on iPhone**
 
-On iPhone, in **Settings > Apps > Mail > Message List > Swipe Options**
-- Set **Swipe Right** to **Archive**
+On iPad, in **Settings**
+- In **Camera** set **Record Video** to **4K at 60 fps**
+- In **Wallet & Apple Pay** 
+  - Disable **Apple Cash**
+  - In **AutoFill Cards** enable **Apple Pay Compatibility**
+- In **Apps**
+  - In **Notes**
+    - In **Password**
+      - Set **Choose a password Method** to **Use Device Passcode**
+      - Enable **Use Face ID**
+    - Disable **"On My iPad" Account**
+    - Set **Screen Unknown Callers** to **Ask Reason for Calling**
+  - In **Reminders**
+    - In **Badge Count** enable **Include Due Today**
+    - In **Grocery Categorization** enable **Set Automatically**
+  - In **Safari**
+    - In **General**
+      - Enable **Show Favorites Bar**
+      - Enable **Show Links on Hover**
+    - In **Tabs** set **Close Tabs** to **After One Day**
+    - In **Privacy & Security**
+      - Enable **Require Face ID to Unlock Private Browsing**
+      - Enable **Not Secure Connection Warning**
+    - In **Settings for Websites > Location** set **Location Access On All Websites** to **Allow**
+  - In **Translate > Languages** download all available languages
 
-## Development on Mac
-
-In Visual Studio Code
-- Sign in using **Continue with GitHub**
-- Backup and Sync Settings using **Sign in with Github**
-  
-Follow the [instructions](https://brew.sh) to install Homebrew. 
-
-In Terminal
-```zsh
-git config --global user.name "your name"
-git config --global user.email "your email"
-```
-
-In Terminal
-```zsh
-mkdir Developer
-cd Developer
-```
-
-Download [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) and use it to install
-```txt
-Clion
-DataGrip
-IntelliJ IDEA
-PyCharm
-WebStorm
-```
+On Mac
+- In **Settings**
+  - In **General**
+    - In **Language & Region > Translation Languages** download all **Languages available for download**
+    - In **Login Items & Extensions > App Background Activity** disable **Podcasts.app** and **Stocks.app**
+  - In **Menu Bar > Allow in the Menu Bar**, disable **Grammarly Desktop**, **JetBrains Toolbox**, and **Zoom**
+  - In **Wallpaper > Dynamic Wallpapers** select **Tahoe** or the latest OS
+  - In **Keyboard** enable **Dictation**
+- In **Calendar > Settings** enable **Turn on time zone support**
+- In **Finder > Settings**
+  - In **General**, enable **Sync Desktop & Documents folders**
+  - In **Advanced**, enable **Show all filename extensions** and enable **Remove items from the Trash after 30 days**
+- In **Journal > Settings > General**
+  - Enable **Add Current Location**
+  - Enable **Always Use Moment Date**
+- In **Mail > Settings**
+  - In **General** set **When searching all mailboxes, include results from** to **Trash**, **Junk**, and **Encrypted Messages**
+  - In **Junk Mail** enable **Enable junk mail filtering**
+- In **Maps > Settings** set **Preferred Transport Type** to **Cycling**
+- In **Notes > Settings** 
+  - Enable **Automatically sort checked items**
+  - Disable **Enable the On My Mac account**
+  - In **Locked notes** enable **Use Touch ID**
+- In **Reminders > Settings > Badge Count** enable **Include due today**

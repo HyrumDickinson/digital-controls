@@ -84,9 +84,14 @@ In **Settings > Users & Groups > Add User**
 - Do not restore your iPhone from backup. Select **Don't Transfer Anything**.
 - Once you reach the home screen, confirm that the top of your Settings app says **This iPhone is supervised and managed by [your name]**. Disconnect the USB cable, download your apps, and restore your settings.
 
+### VPN
+- On all devices, in **Settings > iCloud > iCloud+ Features > Private Relay**, disable **Private Relay**. 
+- On all devices, in **Settings > General > VPN & Device Management > VPN**, remove any VPNs until **VPN** is set to **Not Connected**.
+
 ### Reconnect Apple Watch to iPhone
 - On your Apple Watch, go to **Settings > General > Reset > Erase All Content and Settings**.
-- After your Apple Watch restarts, pair it with your iPhone. 
+- After your Apple Watch restarts, pair it with your iPhone.
+
 
 ## 4. Get NextDNS
 *This is a free DNS service that can filter all webtraffic through your devices and will be locked to them by your supervising entity. See more information on what the settings mean [here](https://github.com/yokoffing/NextDNS-Config). My choices differ from their recommendations.*
