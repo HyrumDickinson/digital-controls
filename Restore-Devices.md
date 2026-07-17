@@ -1,6 +1,8 @@
 # Restore Devices after Reset
 The following are for my own reference. Settings that sync back to your device when you log in with iCloud are not included.
 
+
+
 ## Setup Choices
 | Prompt | Choice |
 |---|---|
@@ -30,6 +32,7 @@ The following are for my own reference. Settings that sync back to your device w
 
 ## Apps
 
+
 ### Mac
 From the Mac App Store, download:
 ```txt
@@ -51,6 +54,7 @@ From the web, download:
 - [Grammarly Desktop](https://app.grammarly.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Zoom](https://zoom.us/download)
+
 
 ### iPhone
 Delete
@@ -128,7 +132,9 @@ Strong
 TripIt
 Wanderlog
 GymTrakr
+WhatsApp
 ```
+
 
 ### iPad
 Remove all widgets
@@ -200,8 +206,8 @@ In **Settings > Apple Pencil**
 - Enable **Only Draw with Apple Pencil**
 - Disable **Scribble**
 
-## Development on Mac
 
+## Development on Mac
 In Visual Studio Code
 - Sign in using **Continue with GitHub**
 - Backup and Sync Settings using **Sign in with Github**
@@ -229,10 +235,12 @@ PyCharm
 WebStorm
 ```
 
+
+
 ## Settings
 
-### Universal Popups, Permissions, and Settings
 
+### Universal Popups, Permissions, and Settings
 Log into all of your apps. If prompted, allow
 |Permission|Selection|When|
 |---|---|---|
@@ -286,8 +294,8 @@ In **Settings > Apps > Safari > Extensions**, for **uBlock Origin Lite** and **N
 | Upgrade to Wi-Fi Calling | Enable |
 | Your Location Will Be Used to Make Emergency Calls | OK |
 
-### Device-Specific Settings
 
+### Device-Specific Settings
 On iPhone, in **Settings**
 - In **Your Name**
   - In **Personal Information > Age Range for Apps** set **Share with Apps** to **Always**
@@ -296,6 +304,7 @@ On iPhone, in **Settings**
   - Set **Photographic Styles** to **Standard**
   - Set **Record Video** to **4K at 60 fps**
   - Set **Record Cinematic** to **4K at 30 fps**
+- In **Siri > Visual Intelligence** enable **Highlight to Image Search**
 - In **Notifications > Enhanced Safety Alerts** enable **Improve Alert Delivery**
 - In **Screen Time > Communication Safety**
   - In **Sensitive Photos and Videos** enable **Communication Safety**
@@ -308,6 +317,7 @@ On iPhone, in **Settings**
     - Enable **Tap to Pay on iPhone Screen Lock**
     - Disable **Always Play Sounds**
     - Enable **Improve Tap to Pay on iPhone**
+  - In **Calendar > Default Alert Times** set **Birthdays** to **On day of event (9 AM)**
   - In **Freeform** set **Math Results** to **Off**
   - In **Journal**
     - In **Journaling Suggestions**
@@ -392,10 +402,15 @@ On Mac
   - In **General**
     - In **Language & Region > Translation Languages** download all **Languages available for download**
     - In **Login Items & Extensions > App Background Activity** disable **Podcasts.app** and **Stocks.app**
+  - In **Appearance > Theme > Icon & widget style**
+    - Select **Dark**
+    - Select **Auto**
   - In **Menu Bar > Allow in the Menu Bar**, disable **Grammarly Desktop**, **JetBrains Toolbox**, and **Zoom**
-  - In **Wallpaper > Dynamic Wallpapers** select **Tahoe** or the latest OS
+  - In **Wallpaper > Dynamic Wallpapers > Landscape** select **Golden Gate Night**
   - In **Keyboard** enable **Dictation**
-- In **Calendar > Settings** enable **Turn on time zone support**
+- In **Calendar > Settings**
+  - In **iCloud** set **Birthdays** to **On day of event (9 AM)**
+  - In **Advanced** enable **Turn on time zone support**
 - In **Finder > Settings**
   - In **General**, enable **Sync Desktop & Documents folders**
   - In **Advanced**, enable **Show all filename extensions** and enable **Remove items from the Trash after 30 days**
@@ -411,3 +426,143 @@ On Mac
   - Disable **Enable the On My Mac account**
   - In **Locked notes** enable **Use Touch ID**
 - In **Reminders > Settings > Badge Count** enable **Include due today**
+
+
+### Visuals
+On iPhone and iPad
+- Go to the Lock Screen
+- Press down on it until you reach the **Collections** screen
+- Select **+**
+- Select the leftmost wallpaper of **iOS (current version)**
+- Delete all other wallpapers
+- On iPad, you are done. On iPhone, continue
+- Select **Customize**
+- Select **Add Widgets**
+- Select **Weather > Conditions**
+- Select **Calendar** and the larger available widget
+- Select the **Shortcuts** icon and select **Depth Effect On**
+- Drag the bottom right corner of the Time box all the way down
+- Delete the **Flashlight** icon and replace it with **Recognize Music**
+- Delete the **Camera** icon and replace it with **Alarm**
+- Select **Done**
+
+On iPhone and iPad
+- Go to the home screen
+- Press down on it until the icons start shaking
+- Select the paintbrush icon
+- Select **Customize**
+- Select **Dark**
+- Select **Auto**
+- Select the sun icon. Confirm the sun is half darkened
+
+
+### Apple Watch
+Setup Choices
+- At **Apple Watch Passcode**, select **Don't Add Passcode**
+- At **Bold Test & Size**, leave the defaults and select **Continue**
+- At **Sleep**, select **Turn On**
+- At **Get Notifications About Your Health**, enable **Noise**, **Low Heart Rate**, and **High Heart Rate**
+
+On iPhone, in the **Watch** app
+- In **Face Gallery**, choose a watch face
+- In **My Watch**
+  - In **General > Airplane Mode** enable **Mirror iPhone**
+  - In **Apps**
+    - In **Activity**
+      - Disable **Stand Reminders**
+      - Disable **Daily Coaching**
+      - Disable **Goal Completions**
+      - Disable **Special Challenges**
+      - Disable **Activity Sharing Notifications**
+    - In **Blood Oxygen** enable **Blood Oxygen Recordings** and enable **In Sleep Focus**
+    - In **Mail > Mail Settings > Signature** remove the signature
+    - In **Mindfulness** set **Notifications Off**
+    - In **Music > Automatically Download** disable **Recent Music**
+    - In **Photos > Album > Photos Limit** set **500 Photos**
+    - In **Sleep > Sleep Score > Sleep Score Notifications** disable all notifications
+    - In **Tips** set **Notifications Off**
+    - In **Workout**
+      - In **Auto-Pause** enable **Auto-Pause**
+      - In **Reminders**
+        - Disable **Start Workout**
+        - Disable **Resume Workout**
+        - Disable **End Workout**
+      - Disable **Press to Pause
+  - In **Installed On Apple Watch**, for all apps except **Duo**, disable **Show App on Apple Watch**
+
+On Apple Watch, in **Settings**
+- In **Mindfulness**
+  - Disable **Start of Day**
+  - Disable **End of Day**
+  - Disable **Weekly Summary**
+- In **Music Recognition** enable **Notifications**
+- In **Translate** download all **Languages Available for Download**
+
+
+### Apple TV
+Setup Choices
+- At **Language** select **English**
+- At **Region** select **United States**
+- At **Automatically Set Up Your Apple TV** select **Set Up Manually**
+- At **Siri & Dictation** select **Use Siri**
+- At **Improve Siri & Dictation** select **Share Audio Recordings**
+- At **Location Services** select **Enable Location Services**
+- At **Analytics** select **Send to Apple**
+- At **App Analytics** select **Share with App Developers**
+- At **Require Passcode** select **Always Require**
+- At **Have a TV Provider** select **Not Now**
+- At **One Home Screen on Every Apple TV** select **Turn On**
+- At **See the World** select **Automatically Download**
+
+On Apple TV
+- Delete all but the stock Apple apps
+- In **Settings**
+  - In **General > Restrictions** 
+  - Enable **Restrictions**
+  - Set **Bypass Restrictions With Device** to **Block**
+  - In **Limit Usage > Apps > Specific Apps**
+    - Set **App Store** to **Block**
+    - Set **Arcade** to **Block**
+    - Set **Computers** to **Block**
+    - Set **FaceTime** to **Block**
+    - Set **Fitness** to **Block**
+    - Set **Photos** to **Block**
+    - Set **TV** to **Block**
+  - In **iTunes Store**
+    - Set **Purchase and Rental** to **Restrict**
+    - Set **In-App Purchases** to **Block**
+  - In **Allowed Content**
+    - Set **Music Videos** to **Block**
+    - Set **Music Profiles** to **Hide**
+    - Set **Movies** to **Don't Allow Movies**
+    - Set **TV Shows** to **Don't Allow TV Shows**
+    - Set **Siri Explicit Language** to **Show**
+  - In **Game Center**
+    - Set **Multiplayer Games** to **Don't Allow**
+    - Set **Nearby Multiplayer** to **Block**
+    - Set **Private Messaging** to **Block**
+    - Set **Profile Privacy Changes** to **Block**
+    - Set **Avatar and Nickname Changes** to **Block**
+    - Set **Screen Recording** to **No**
+    - Set **Connect with Friends** to **Block**
+  - On your iPhone, connect **TV Remote** to your Apple TV
+  - Using your iPhone, navigate on your Apple TV to **Restrictions > Parental Controls > Change Passcode** and set a random passcode that you do not know
+  - In **Screen Saver > Current Selection** select **Snoopy**
+  - In **Notifications** set **TV** to **Off**
+  - In **Apps > App Settings**
+    - In **Music**
+      - In **Home Screen**
+        - Set **Top Shelf** to **Library + Top Albums**
+        - Set **Apple Music Sing** to **Hide**
+      - In **Audio** set **Audio Quality** to **Lossless**
+
+
+### HomePod
+Setup Choices
+- At **Siri Can Recognize Your Voice** select **Recognize My Voice**
+- At **Personal Content** select **Use Personal Content**
+
+On iPhone, in the **Home** app
+- At the **Living Room (your Apple TV name) Speakers** popup, select **Use Home Theater**
+
+

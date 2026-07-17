@@ -3,6 +3,7 @@
 
 Digital controls are not only for addicts. I'm a computer engineer, meaning I spend quite a bit of unavoidable time at a desk on a computer for school and research. For people with screen-centric careers, spending free time on screens may result in an unhealthy amount of screen time. I find that digital controls are a far easier way to eliminate unnecessary screen time than relying exclusively on depleted willpower at the end of a long day.
 
+
 ### How blocks are enforced
 1. Configuration profiles
 2. Screen time settings
@@ -10,6 +11,7 @@ Digital controls are not only for addicts. I'm a computer engineer, meaning I sp
 4. A digital time-delay Lockbox which holds the passcodes to the other three layers
 
 Omitting any of these 4 layers of protection renders digital controls ineffective by opening [loopholes](Loophole.md) that take seconds to exploit. 
+
 
 ### What is blocked
 ```txt
@@ -27,8 +29,8 @@ Loopholes like internet archives, torrents, and pirating
 
 Customize your blocks to your preferences. [These settings](Recommendations.md) can be changed without opening loopholes.
 
-### How to bypass blocks
 
+### How to bypass blocks
 It is impossible to bypass or edit these blocks except through two methods
 1. Waiting 24 hours (recommended)
 2. Factory resetting your devices ([see more](Factory-Reset.md))
@@ -41,20 +43,25 @@ Once you have bypassed these blocks, you have **full control**.
 # How to set up digital controls
 *This guide is for Apple devices. Similar controls can be set up on Windows and Android devices, but the details on how to set them up may be different. Windows PCs have administrator/standard account separation comparable to Macs, and both Windows and Android have their own versions of Screen Time Settings. Windows and Android have their own methods to set up device supervision and install configuration profiles.*
 
-## 1. Update and back up all devices.
-*Some features necessary for this guide do not exist in some older software versions. Avoid beta updates because they introduce unpredictable bugs.*
 
-- On all of your devices, go to **Settings > General > Software Update** and install all available non-beta updates. 
+## 1. Update and back up all devices.
+*Some features necessary for this guide do not exist in some older software versions.*
+
+- On all of your devices, go to **Settings > General > Software Update** and install all available updates. 
 - On all of your devices, screenshot your home screen, list of apps, and anything else you want to restore after factory reset. You will not restore your devices from backups.
 - For reference, [this](Restore-Devices.md) is how I restore my apps and settings.
 
+
+
 ## 2. Separate administrator / standard accounts on Mac
 *Standard mode is for regular use and all restrictions implemented in this guide apply to it. Administrator mode is for unrestricted full control.*
+
 
 ### Factory reset your Mac
 - Select **Settings > General > Transfer or Reset Mac > Erase All Content and Settings**.
 - Set up your Mac as a new device. Do not restore from backup. When prompted to create an account, name it **Admin**, and disable **Allow computer account password to be reset with your Apple Account**. This will be your administrator account. 
 - Continue setting up your Mac until you reach the home screen. Download your apps and restore your settings.
+
 
 ### Create a standard account
 In **Settings > Users & Groups > Add User**
@@ -64,14 +71,18 @@ In **Settings > Users & Groups > Add User**
 - Enable **Allow computer account password to be reset with your Apple Account**
 - Click **Create User**
 
+
 ### Restrict Apple Configurator to administrator account only
 - Download Apple Configurator from the Mac App Store. 
 - With Apple Configurator closed, right-click on the Apple Configurator icon. Select **Get Info**. At the bottom right of the app info screen, select the lock icon. Scroll down to **Sharing & Permissions** and open it. 
 - Set privilege of **everyone** to **No Access**. At the bottom left of the app info screen, select **+**. Select **Administrators** and set privilege to **Read & Write**. 
 - Select the lock icon again and close the app info screen. 
 
+
+
 ## 3. Put iPhone and iPad in supervised mode
 *Supervised Mode allows you to install configuration profiles that are unremovable which are removable only by the supervision entity or a factory reset.*
+
 
 ### Connect iPhone/iPad to Apple Configurator
 - Open Apple Configurator on your Mac. Connect your iPhone/iPad to your Mac with a USB cable. Right-click your iPhone/iPad in Apple Configurator. 
@@ -81,24 +92,29 @@ In **Settings > Users & Groups > Add User**
 - Select **Prepare**. A popup will appear that says **Configurator could not perform the requested action because ‘iPhone’ has already been prepared**. Select **Erase**.
 - Wait until the **Preparing** screen in Apple Configurator disappears. Your device will factory reset to allow installation of the supervision entity.
 
+
 ### Set up your iPhone/iPad
 - At one point your iPhone/iPad will say **iPhone/iPad Partially Set Up**, referring to the supervising organization you created. Select **Continue with Partial Setup**.
 - Do not restore your iPhone from backup. Select **Don't Transfer Anything**.
 - Once you reach the home screen, confirm that the top of your Settings app says **This iPhone is supervised and managed by [your name]**. Disconnect the USB cable, download your apps, and restore your settings.
 
+
 ### VPN
 - On all devices, in **Settings > iCloud > iCloud+ Features > Private Relay**, disable **Private Relay**. 
 - On all devices, in **Settings > General > VPN & Device Management > VPN**, remove any VPNs until **VPN** is set to **Not Connected**.
+
 
 ### Reconnect Apple Watch to iPhone
 - On your Apple Watch, go to **Settings > General > Reset > Erase All Content and Settings**.
 - After your Apple Watch restarts, pair it with your iPhone.
 
 
+
 ## 4. Get NextDNS
 *This is a free DNS service that can filter all webtraffic through your devices and will be locked to them by your supervising entity. See more information on what the settings mean [here](https://github.com/yokoffing/NextDNS-Config). My choices differ from their recommendations.*
 
 Sign up for a free account at [NextDNS](https://nextdns.io) using your Screen Time Apple Account.
+
 
 ### Security
 - Enable **Threat Intelligence Feeds**
@@ -115,12 +131,14 @@ Sign up for a free account at [NextDNS](https://nextdns.io) using your Screen Ti
 - Consider blocking [these](Recommendations.md#top-level-domains-tlds) **Top-Level Domains (TLDs)**.
 - Enable **Block Child Sexual Abuse Material**
 
+
 ### Privacy
 - Remove **NextDNS Ads & Trackers Blocklist**.
 - Add **HaGeZi - Multi PRO++** blocklist
 - Add Apple **Native Tracking Protection**
 - Enable **Block Disguised Third-Party Trackers**
 - Disable **Allow Affiliate & Tracking Links**
+
 
 ### Parental Control
 - Consider blocking [these](Recommendations.md#websites-apps--games) **Websites, Apps, & Games**
@@ -130,8 +148,10 @@ Sign up for a free account at [NextDNS](https://nextdns.io) using your Screen Ti
 - Enable **YouTube Restricted Mode**
 - Enable **Block Bypass Methods**
 
+
 ### Denylist
 - Consider blocking [these](Recommendations.md#denylist) domains
+
 
 ### Allowlist
 Allow the following urls
@@ -147,6 +167,7 @@ nextdns.io
 ```
 These must be allowed to ensure critical Apple, Zoom, and NextDNS functionality works. 
 
+
 ### Settings
 - Enable **Logs**
 - Enable **Log clients IPs**
@@ -158,12 +179,16 @@ These must be allowed to ensure critical Apple, Zoom, and NextDNS functionality 
 - Disable **Bypass Age Verification**
 - Disable **Web3**
 
+
+
 ## 6. Get Configuration Profile
 *Enabled by your supervision profile, configuration profiles override settings on your device and can only be removed by the supervision entity or a factory reset.*
+
 
 ### Download Configuration Profile
 - In the NextDNS dashboard, go to **Setup > Setup Guide > Configuration Profile**. Click on the line that says **Use our Apple Configuration Profile Generator available at apple.nextdns.io**.
 - Select **More options**, scroll down, enable **Prohibit Disablement**, and disable **Sign Configuration Profile**. Select **Download**. Click **OK** on the popup that appears but do not install the profile.
+
 
 ### Customize Configuration Profile
   In your Mac administrator account open **Apple Configurator**. At the top of the screen, select **File > Open > Downloads** and open the downloaded **.mobileconfig** file. 
@@ -181,9 +206,9 @@ In the **Restrictions** section
 - Disable **Allow modifying account settings (supervised only)**
 - Disable **Allow pairing with non-Configurator hosts (supervised only)**
 - Disable **Allow putting into recovery mode from an unpaired device (supervised only)**
-- Consider [these](Recommendations.md#configuration-profile-settings) additional settings
 
 Save your changes and move the file to your iCloud Documents folder.
+
 
 ### Install Configuration Profile
 - Connect your iPhone/iPad to your to your Mac using a USB cable. Right-click your iPhone/iPad in Apple Configurator. Select **Add > Profiles**. Select the **.mobileconfig** file. 
@@ -194,48 +219,64 @@ Confirm that you see the following in **Settings > General**
   - **VPN** is set to **Not Connected**
   - **Restrictions and Proxies** and **Configuration Profile** are set to **NextDNS (and some code)**
   - Within **Configuration Profile** there's no option to remove the profile
-- In **Software Update** there's no option to install Beta Updates
 - In **Transfer or Reset iPhone** the  **Erase All Content and Settings** option is faded out
+
+
 
 ## 5. Create new Apple Account for Screen Time
 *This account will be used for Screen Time and will be the only account that can change Screen Time settings. It will not be used for any other purpose.*
 
+
 ### Get new burner phone number
 - Use an app that you don't use for other burner numbers to get a new screen time phone number. I use [TextFree](https://textfree.us/), which requires a subscription to receive verification codes. If you choose TextFree, get the one-month subscription and immediately cancel it via the App Store.*
+
 
 ### Get a new burner email address
 - Use a site that you don't use for other email accounts to get a new screen time email address using your burner phone number. I use [Yahoo](https://mail.yahoo.com/).
 
+
 ### Get a new Apple Account
 - Use your screen time phone number and email to create a new Screen Time Apple Account. You will get a popup saying **We cannot create your account at this time**. Contact Apple Support and get the block removed.
 
-### Log into Screen time with your new Apple Account
-- On your iPhone, iPad, and Mac standard account, go to **Settings > Screen Time > App & Website Activity > Turn on Apple & Website Activity**. Confirm that **Share Across Devices** is on. 
-- On your Mac, go to **Settings > Screen Time > Lock Screen Time Settings** and set a Screen Time Passcode. When prompted, sign in using your Screen Time Apple Account.
+
 
 ## 7. Set Screen Time Settings
 *These settings allow customizability not available to configuration profiles. These instructions are for Mac and will sync to your other devices. Mac's Screen Time interface differs slightly from iPhone/iPad.*
 
-- Go to **Settings > Screen Time > App & Website Activity** and select **Turn on App & Website Activity**.
 
-### Downtime
-- Enable **Block at Downtime**.
-- For the other downtime settings, consider [these](Recommendations.md#downtime)
+### Enable Screen Time
+- On your iPhone, iPad, and Mac standard account, go to **Settings > Screen Time > Manage Screen Time**. 
+  - Enable **Share Across Devices**. 
+  - Enable **App & Website Activity**.
+- On your Mac, go to **Settings > Manage Screen Time > Lock Screen Time Settings** and set a Screen Time Passcode. When prompted, sign in using your Screen Time Apple Account.
 
-### App Limits
-- For each App Limit, enable **Block at end of limit**
-- For the other App Limits settings, consider [these](Recommendations.md#app-limits)
+
+### Apps & Websites
+*If apps from other devices are missing from the app list, charge all devices and wait for them to sync.*
+- In **Restrictions**
+  - Set **Installing Apps** to **Blocked**
+  - Set **Deleting Apps** to **Blocked**
+  - Set **In-app Purchases** to **Blocked**
+  - Set **App Clips** to **Blocked**
+  - Set **Filtering** to **Limit Adult Websites**
+- Consider [these] (Recommendations#apps--websites) additional settings
+
 
 ### Always Allowed
-- It may take some time for your app list to sync between your devices. If apps are missing, ensure all devices are charging and wait for them to sync.
-- Consider [these](Recommendations.md#always-allowed) settings
+*The more limited your Always Allowed list is, the more effective Downtime is. I recommend adding nothing to the default list. Regardless of all other settings, Clock, Wallet, Settings, Health, Find My, Home, Fitness, Watch, Passwords, Compass, Magnifier, and Files will always be available.*
 
-### Screen Distance
-- Enable **Screen Distance**
+
+### Screen Time Schedule & Time Allowances
+- In **Screen Time Schedule** enable **Schedule**.
+- In **Time Allowances** enable **Match Screen Time Schedule**
+*For better sleep, I recommend blocking everything but your Always Allowed apps at night. If you are a student, I recommend this start after midnight so it never interferes with assignment deadlines. Another suggestion for students is to block everything but the Notes and Preview apps during class time.*
+
 
 ### Content & Privacy Restrictions
-- Enable **Content & Privacy Restrictions**.
+- Enable **All Restrictions**.
 - Consider [these](Recommendations.md#content--privacy-restrictions) settings
+
+
 
 ## 8. Lockbox
 *Your Lockbox Codes will be stored there and nowhere else*
@@ -261,6 +302,8 @@ Your **Lockbox Codes** are
 - Lock your Lockbox by selecting **relock**.
 
 At this point, your digital controls setup is complete.
+
+
 
 ## 9. Maintenance
 *You have full control over all settings, after the Lockbox time delay.*
