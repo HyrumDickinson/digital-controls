@@ -75,12 +75,7 @@ TV
 
 
 ### Content & Privacy Restrictions
-In **Feature Restrictions**
-  - In **Siri** 
-      - Set **Extensions** to **Blocked**
-      - Set **Writing Assistance** to **Blocked**
-      - Set **Math Assistance** to **Blocked**
-  - In **Screen Distance** enable **Screen Distance**
+In **Feature Restrictions > Screen Distance** enable **Screen Distance**
 
 In **Content Restrictions**
   - In **Movies**
